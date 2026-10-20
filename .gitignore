@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.env
+.env.local
+backend/.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.sqlite3
+*.sqlite3-*
+backend/data/
+test-results/
+playwright-report/
+.env
+backend/.env
+
+*.tsbuildinfo

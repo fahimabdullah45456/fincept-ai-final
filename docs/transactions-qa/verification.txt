@@ -1,0 +1,14 @@
+Final executed verification (isolated development workspace)
+
+npm run build: PASS (TypeScript + Vite).
+npm test: 44 tests passed, 6 test files.
+backend/.venv/bin/python -m pytest -q (backend directory): 29 passed; 1 existing Starlette/httpx deprecation warning.
+PYTHON_BIN=/data/fincept-ai/backend/.venv/bin/python PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH=$(which chromium) npm run test:e2e: 40 passed (1.5m).
+After the final time-icon CSS adjustment: production build PASS; complete tests/transactions.spec.ts rerun: 10 passed (32.0s).
+Unique automated tests: 113 (reruns not added to this count).
+All four desktop sizes, both sidebar states: 1440x900, 1366x768, 1280x800, 1024x768.
+SVG XML security/content validation: all ten transaction vectors passed.
+Final 1440 minimized page/modal and 1024 expanded modal screenshots visually reviewed alongside supplied/original Figma references. Internal dialog/table scroll is intentional.
+No deployed environment, production credentials or user computer installation tested.
+
+Reports describe actual executed tests. Transient failures were fixed and rerun; see IMPLEMENTATION_STATUS.md. Browser screenshots use explicitly opted-in isolated illustrative sample records, not live user finances.

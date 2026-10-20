@@ -1,0 +1,8 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Icon/debt">
+<rect id="Note" x="3.41667" y="6.41667" width="15.1667" height="9.16667" rx="2.08333" stroke="#777873" stroke-width="1.83333" stroke-linecap="round" stroke-linejoin="round"/>
+<circle id="Coin" cx="11" cy="11" r="1.58333" stroke="#777873" stroke-width="1.83333" stroke-linecap="round" stroke-linejoin="round"/>
+<circle id="Dot L" cx="5.6" cy="11" r="0.7" fill="#777873"/>
+<circle id="Dot R" cx="16.4" cy="11" r="0.7" fill="#777873"/>
+</g>
+</svg>

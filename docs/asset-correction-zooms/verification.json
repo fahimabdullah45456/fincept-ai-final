@@ -1,0 +1,300 @@
+{
+  "method": "chrome.tabs.setZoom + chrome.tabs.getZoom; CSS zoom unchanged; deviceScaleFactor 1; 1440x980 physical viewport",
+  "pngRequests": [],
+  "results": [
+    {
+      "route": "sign-in",
+      "browserZoom": 1,
+      "innerWidth": 1440,
+      "innerHeight": 980,
+      "dpr": 1,
+      "documentWidth": 1440,
+      "documentHeight": 980,
+      "cssZoom": "1",
+      "wordmark": "FINCEPT",
+      "images": [
+        {
+          "src": "/assets/auth/logo-mark.svg",
+          "loaded": true
+        },
+        {
+          "src": "/assets/auth/savings-chart.svg",
+          "loaded": true
+        },
+        {
+          "src": "/assets/auth/housing-icon.svg",
+          "loaded": true
+        },
+        {
+          "src": "/assets/auth/wallet-icon.svg",
+          "loaded": true
+        },
+        {
+          "src": "/assets/auth/groceries-icon.svg",
+          "loaded": true
+        },
+        {
+          "src": "/assets/auth/password-eye.svg",
+          "loaded": true
+        },
+        {
+          "src": "/assets/google.svg",
+          "loaded": true
+        }
+      ],
+      "liveText": "৳8,450",
+      "ringCircles": 2,
+      "categoryCards": 3,
+      "fontLoaded": true,
+      "screenshot": "sign-in-100.png",
+      "passwordTogglePassed": true
+    },
+    {
+      "route": "sign-up",
+      "browserZoom": 1,
+      "innerWidth": 1440,
+      "innerHeight": 980,
+      "dpr": 1,
+      "documentWidth": 1440,
+      "documentHeight": 980,
+      "cssZoom": "1",
+      "wordmark": "FINCEPT",
+      "images": [
+        {
+          "src": "/assets/auth/logo-mark.svg",
+          "loaded": true
+        },
+        {
+          "src": "/assets/auth/savings-chart.svg",
+          "loaded": true
+        },
+        {
+          "src": "/assets/auth/housing-icon.svg",
+          "loaded": true
+        },
+        {
+          "src": "/assets/auth/wallet-icon.svg",
+          "loaded": true
+        },
+        {
+          "src": "/assets/auth/groceries-icon.svg",
+          "loaded": true
+        },
+        {
+          "src": "/assets/auth/password-eye.svg",
+          "loaded": true
+        },
+        {
+          "src": "/assets/auth/password-eye.svg",
+          "loaded": true
+        },
+        {
+          "src": "/assets/google.svg",
+          "loaded": true
+        }
+      ],
+      "liveText": "৳8,450",
+      "ringCircles": 2,
+      "categoryCards": 3,
+      "fontLoaded": true,
+      "screenshot": "sign-up-100.png",
+      "passwordTogglePassed": true
+    },
+    {
+      "route": "sign-in",
+      "browserZoom": 1.25,
+      "innerWidth": 1152,
+      "innerHeight": 784,
+      "dpr": 1.25,
+      "documentWidth": 1200,
+      "documentHeight": 980,
+      "cssZoom": "1",
+      "wordmark": "FINCEPT",
+      "images": [
+        {
+          "src": "/assets/auth/logo-mark.svg",
+          "loaded": true
+        },
+        {
+          "src": "/assets/auth/savings-chart.svg",
+          "loaded": true
+        },
+        {
+          "src": "/assets/auth/housing-icon.svg",
+          "loaded": true
+        },
+        {
+          "src": "/assets/auth/wallet-icon.svg",
+          "loaded": true
+        },
+        {
+          "src": "/assets/auth/groceries-icon.svg",
+          "loaded": true
+        },
+        {
+          "src": "/assets/auth/password-eye.svg",
+          "loaded": true
+        },
+        {
+          "src": "/assets/google.svg",
+          "loaded": true
+        }
+      ],
+      "liveText": "৳8,450",
+      "ringCircles": 2,
+      "categoryCards": 3,
+      "fontLoaded": true,
+      "screenshot": "sign-in-125.png",
+      "passwordTogglePassed": true
+    },
+    {
+      "route": "sign-up",
+      "browserZoom": 1.25,
+      "innerWidth": 1152,
+      "innerHeight": 784,
+      "dpr": 1.25,
+      "documentWidth": 1200,
+      "documentHeight": 980,
+      "cssZoom": "1",
+      "wordmark": "FINCEPT",
+      "images": [
+        {
+          "src": "/assets/auth/logo-mark.svg",
+          "loaded": true
+        },
+        {
+          "src": "/assets/auth/savings-chart.svg",
+          "loaded": true
+        },
+        {
+          "src": "/assets/auth/housing-icon.svg",
+          "loaded": true
+        },
+        {
+          "src": "/assets/auth/wallet-icon.svg",
+          "loaded": true
+        },
+        {
+          "src": "/assets/auth/groceries-icon.svg",
+          "loaded": true
+        },
+        {
+          "src": "/assets/auth/password-eye.svg",
+          "loaded": true
+        },
+        {
+          "src": "/assets/auth/password-eye.svg",
+          "loaded": true
+        },
+        {
+          "src": "/assets/google.svg",
+          "loaded": true
+        }
+      ],
+      "liveText": "৳8,450",
+      "ringCircles": 2,
+      "categoryCards": 3,
+      "fontLoaded": true,
+      "screenshot": "sign-up-125.png",
+      "passwordTogglePassed": true
+    },
+    {
+      "route": "sign-in",
+      "browserZoom": 1.5,
+      "innerWidth": 960,
+      "innerHeight": 653,
+      "dpr": 1.5,
+      "documentWidth": 1200,
+      "documentHeight": 980,
+      "cssZoom": "1",
+      "wordmark": "FINCEPT",
+      "images": [
+        {
+          "src": "/assets/auth/logo-mark.svg",
+          "loaded": true
+        },
+        {
+          "src": "/assets/auth/savings-chart.svg",
+          "loaded": true
+        },
+        {
+          "src": "/assets/auth/housing-icon.svg",
+          "loaded": true
+        },
+        {
+          "src": "/assets/auth/wallet-icon.svg",
+          "loaded": true
+        },
+        {
+          "src": "/assets/auth/groceries-icon.svg",
+          "loaded": true
+        },
+        {
+          "src": "/assets/auth/password-eye.svg",
+          "loaded": true
+        },
+        {
+          "src": "/assets/google.svg",
+          "loaded": true
+        }
+      ],
+      "liveText": "৳8,450",
+      "ringCircles": 2,
+      "categoryCards": 3,
+      "fontLoaded": true,
+      "screenshot": "sign-in-150.png",
+      "passwordTogglePassed": true
+    },
+    {
+      "route": "sign-up",
+      "browserZoom": 1.5,
+      "innerWidth": 960,
+      "innerHeight": 653,
+      "dpr": 1.5,
+      "documentWidth": 1200,
+      "documentHeight": 980,
+      "cssZoom": "1",
+      "wordmark": "FINCEPT",
+      "images": [
+        {
+          "src": "/assets/auth/logo-mark.svg",
+          "loaded": true
+        },
+        {
+          "src": "/assets/auth/savings-chart.svg",
+          "loaded": true
+        },
+        {
+          "src": "/assets/auth/housing-icon.svg",
+          "loaded": true
+        },
+        {
+          "src": "/assets/auth/wallet-icon.svg",
+          "loaded": true
+        },
+        {
+          "src": "/assets/auth/groceries-icon.svg",
+          "loaded": true
+        },
+        {
+          "src": "/assets/auth/password-eye.svg",
+          "loaded": true
+        },
+        {
+          "src": "/assets/auth/password-eye.svg",
+          "loaded": true
+        },
+        {
+          "src": "/assets/google.svg",
+          "loaded": true
+        }
+      ],
+      "liveText": "৳8,450",
+      "ringCircles": 2,
+      "categoryCards": 3,
+      "fontLoaded": true,
+      "screenshot": "sign-up-150.png",
+      "passwordTogglePassed": true
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "feature": "AI Financial Assistant",
+  "completed_at_utc": "2026-10-20T04:27:26.956258+00:00",
+  "source_baseline": "FINCEPT-AI-With-Insights.zip; existing application extended, no Git diff claimed",
+  "figma": {
+    "file": "kpEbLoKLaLiUcB8Q6xxgRl",
+    "canvas": "2001:7029",
+    "access": "read-only; no design modifications",
+    "references": [
+      "welcome",
+      "history",
+      "conversation",
+      "error"
+    ],
+    "visual_comparison": "Actual local rendered welcome/history/messages reviewed; browser rasterization and truthful runtime labels differ from illustrative Figma samples"
+  },
+  "checks": [
+    {
+      "command": "npm test",
+      "result": "PASS",
+      "passed": 80,
+      "test_files": 13,
+      "log": "logs/frontend-unit.log"
+    },
+    {
+      "command": "npm run build",
+      "result": "PASS",
+      "typescript": true,
+      "vite": true,
+      "log": "logs/frontend-build.log"
+    },
+    {
+      "command": "cd backend && .venv/bin/python -m pytest -q",
+      "result": "PASS",
+      "passed": 105,
+      "skipped": 1,
+      "warnings": 2,
+      "duration_seconds": 63.3,
+      "skip_reason": "Real-provider opt-in integration requires private configuration; not configured or run",
+      "log": "logs/backend-all.log"
+    },
+    {
+      "command": "PYTHON_BIN=/data/fincept/fincept-ai/backend/.venv/bin/python PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH=$(which chromium) npm run test:e2e",
+      "result": "PASS",
+      "passed": 90,
+      "duration": "4.2m",
+      "log": "logs/browser-all.log"
+    },
+    {
+      "command": "Same browser command -- tests/assistant.spec.ts --grep 'real saved user|composer whitespace' --repeat-each=8",
+      "result": "PASS",
+      "passed": 16,
+      "unique_test_count": 2,
+      "counted_in_total": false,
+      "log": "logs/browser-retry-stress.log"
+    },
+    {
+      "command": "npm audit --omit=dev --json",
+      "result": "PASS",
+      "runtime_vulnerabilities": 0,
+      "log": "logs/production-audit.json"
+    }
+  ],
+  "distinct_passed_total": 275,
+  "skipped_total": 1,
+  "provider": {
+    "production_adapter": "OpenAI Chat Completions via server-side HTTPX",
+    "configured_in_verification_environment": false,
+    "live_provider_success_verified": false,
+    "successful_contract_tests": "Explicit injected test doubles and HTTPX MockTransport; UI-only response fixture labeled UI TEST FIXTURE ONLY",
+    "no_production_fake_replies": true,
+    "env_names": [
+      "AI_PROVIDER",
+      "AI_MODEL",
+      "OPENAI_API_KEY"
+    ]
+  },
+  "desktop_viewports": [
+    {
+      "width": 1440,
+      "height": 900,
+      "sidebar": [
+        "expanded",
+        "minimized"
+      ],
+      "history": [
+        "closed",
+        "open"
+      ],
+      "overflow": "PASS"
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "sidebar": [
+        "expanded",
+        "minimized"
+      ],
+      "history": [
+        "closed",
+        "open"
+      ],
+      "overflow": "PASS"
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "sidebar": [
+        "expanded",
+        "minimized"
+      ],
+      "history": [
+        "closed",
+        "open"
+      ],
+      "overflow": "PASS"
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "sidebar": [
+        "expanded",
+        "minimized"
+      ],
+      "history": [
+        "closed",
+        "open"
+      ],
+      "overflow": "PASS"
+    }
+  ],
+  "assets": [
+    {
+      "file": "public/assets/assistant/sparkle.svg",
+      "viewBox": "0 0 36 36",
+      "result": "PASS"
+    },
+    {
+      "file": "public/assets/assistant/suggestion.svg",
+      "viewBox": "0 0 18 18",
+      "result": "PASS"
+    }
+  ],
+  "screenshots": [
+    "figma-conversation.png",
+    "figma-error.png",
+    "figma-history.png",
+    "figma-welcome.png",
+    "implemented-1024-expanded-history.png",
+    "implemented-1024-expanded.png",
+    "implemented-1024-minimized-history.png",
+    "implemented-1024-minimized.png",
+    "implemented-1280-expanded-history.png",
+    "implemented-1280-expanded.png",
+    "implemented-1280-minimized-history.png",
+    "implemented-1280-minimized.png",
+    "implemented-1366-expanded-history.png",
+    "implemented-1366-expanded.png",
+    "implemented-1366-minimized-history.png",
+    "implemented-1366-minimized.png",
+    "implemented-1440-expanded-history.png",
+    "implemented-1440-expanded.png",
+    "implemented-1440-minimized-history.png",
+    "implemented-1440-minimized.png",
+    "implemented-long-user-question.png",
+    "implemented-pending-test-fixture.png",
+    "implemented-privacy.png",
+    "implemented-real-unavailable-history.png",
+    "implemented-reference-1440x1080.png",
+    "implemented-success-test-fixture.png"
+  ],
+  "source_sha256": {
+    "backend/app/assistant/__init__.py": "e111e0de41be5ba32f39d671dd68a67bfe5af26068e12831d129a7fee6649e8f",
+    "backend/app/assistant/context.py": "508d83fe4113bd852314b06637dd51a0712fb9485911856c746d1063ba40744a",
+    "backend/app/assistant/provider.py": "b338621fc32c13c07e93c0fdd9cb00f589cd40cca34085745525b44b2775c5c0",
+    "backend/app/assistant/routes.py": "34710482c6f305121f1be87a042ac1642fbe299b2a89f6020ce908d109daff1d",
+    "backend/app/assistant/schema.py": "17fda02c64dcac6d0568f3f83ff3050ef37ae48548a24230503fa299ecae65fd",
+    "backend/app/main.py": "7b30827d51ec5bc5323da2ff0d3a5d301e6184210a20df8f2185ed8f78c078e0",
+    "src/app/App.tsx": "78f2a36d774763f6d09dba38c84dfdee94b147ce659accefda07138560064153",
+    "src/components/layout/ApplicationHeader.tsx": "d036c3379030e8218c2a59c13510bd7f85fe0949ec15fcc492614ea9afc569b8",
+    "src/components/ui/Icon.tsx": "7c645890766866728dcc1eef776b230c626cf06816e4689a68710425771e0a0a",
+    "src/features/assistant/Assistant.tsx": "97887e8a012a8f79f51eae195d01074ad62d635da7f93983e805ce160d0190e4",
+    "src/features/assistant/AssistantComponents.tsx": "4833c68431326f180b1e4fe01f6a8d947d56290271a2be6e9fd75baa306ce48d",
+    "src/features/assistant/api.ts": "abb6f9d66f4f3314a63b08e6746b27ddc143ca38d8184a0f1d356bd5f5b8bfe3",
+    "src/features/assistant/assistant.test.tsx": "03f92d09bf1742ed033e782e0e5a081cd60f5085a97ade0b84f0ab044e68c627",
+    "src/styles/assistant.css": "ea59f83bc2acaad61c946c090373a69dc0e04060c45de913291da8b6fe522ce9",
+    "tests/assistant.spec.ts": "6ece1c15bfbdce01efa8bafde592f7c9716e06a8c7bd7756bf33b2a536471e6a",
+    "tests/sidebar.spec.ts": "bbedbba191e8f5931d596e6e49d8180027da392cd0fd0eff6f95e0ef8ab4bde3",
+    "tests/ui-corrections.spec.ts": "008036584650759b9ad9289bd3ffdd07f1585cace11f6f3865ef0677ee2add14"
+  },
+  "limitations": [
+    "Live response quality and credentials remain unverified",
+    "No streaming/provider cancellation or model-driven financial writes",
+    "Limited English intent/period rules; follow-ups without dates default to this month",
+    "No history rename/delete/archive or separate database-at-rest encryption",
+    "Presentation privacy conceals entire free-form text, does not change provider context",
+    "Existing development-only Vitest advisories remain; production audit clean",
+    "Not a production deployment certification"
+  ]
+}

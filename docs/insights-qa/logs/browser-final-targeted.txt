@@ -1,0 +1,31 @@
+
+> fincept-ai@0.1.0 test:e2e
+> playwright test tests/insights.spec.ts tests/sidebar.spec.ts
+
+[WebServer] INFO:     Started server process [32110]
+[WebServer] INFO:     Waiting for application startup.
+[WebServer] INFO:     Application startup complete.
+[WebServer] INFO:     Uvicorn running on http://127.0.0.1:8090 (Press CTRL+C to quit)
+
+Running 17 tests using 1 worker
+
+
+  ✓   1 tests/insights.spec.ts:12:1 › real demo totals, shared shell, category reconciliation, sources, goals and honest AI state (3.5s)
+  ✓   2 tests/insights.spec.ts:28:1 › chart hover, keyboard focus and privacy hide amounts including accessible labels and category details (3.7s)
+  ✓   3 tests/insights.spec.ts:50:1 › all date presets, validated custom range and URL persistence filter real data (4.9s)
+  ✓   4 tests/insights.spec.ts:73:1 › category detail loads category-and-date-filtered expenses and navigates to existing Transactions (2.1s)
+  ✓   5 tests/insights.spec.ts:88:1 › exports a real CSV download, supports masked money and never toasts on failed export (3.1s)
+  ✓   6 tests/insights.spec.ts:109:1 › real empty account has no fabricated trends, budgets, sources or savings rate (1.4s)
+  ✓   7 tests/insights.spec.ts:120:1 › loading, failed load, retry and invalid URL dates are explicit without changing records (2.3s)
+  ✓   8 tests/insights.spec.ts:133:1 › real live accounting excludes transfers, counts fees once and keeps demo isolated (1.9s)
+  ✓   9 tests/insights.spec.ts:153:1 › four desktop viewports, both sidebar states, contained charts/dialogs and reduced motion (4.3s)
+  ✓  10 tests/sidebar.spec.ts:37:3 › both sidebar states at 1440x900 (4.7s)
+  ✓  11 tests/sidebar.spec.ts:37:3 › both sidebar states at 1366x768 (4.5s)
+  ✓  12 tests/sidebar.spec.ts:37:3 › both sidebar states at 1280x800 (4.3s)
+  ✓  13 tests/sidebar.spec.ts:37:3 › both sidebar states at 1024x768 (4.3s)
+  ✓  14 tests/sidebar.spec.ts:53:1 › every route navigates without remounting sidebar in either state (4.1s)
+  ✓  15 tests/sidebar.spec.ts:70:1 › keyboard, tooltips, reduced motion and original assets (1.8s)
+  ✓  16 tests/sidebar.spec.ts:89:1 › invalid and inaccessible storage fall back safely (1.9s)
+  ✓  17 tests/sidebar.spec.ts:95:1 › all application routes remain protected without a session (3.3s)
+
+  17 passed (1.0m)

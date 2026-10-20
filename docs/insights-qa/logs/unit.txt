@@ -1,0 +1,26 @@
+
+> fincept-ai@0.1.0 test
+> vitest run
+
+
+ RUN  v3.2.7 /vercel/sandbox/data/fincept/fincept-ai
+
+ ✓ src/components/layout/AuthenticatedLayout.test.tsx (4 tests) 781ms
+   ✓ shares the same sidebar instance across every route and updates active selection  482ms
+ ✓ src/features/transactions/DateTimePicker.test.tsx (5 tests) 770ms
+ ✓ src/features/insights/InsightsCharts.test.tsx (3 tests) 238ms
+ ✓ src/features/overview/OverviewCards.test.tsx (5 tests) 261ms
+ ✓ src/features/auth/components/FormControls.test.tsx (3 tests) 245ms
+ ✓ src/features/auth/components/AuthBrand.test.tsx (2 tests) 320ms
+ ✓ src/features/insights/format.test.ts (11 tests) 64ms
+ ✓ src/features/budgets/budgets.test.ts (3 tests) 34ms
+ ✓ src/features/goals/goals.test.ts (3 tests) 4ms
+ ✓ src/features/transactions/calculator.test.ts (22 tests) 10ms
+ ✓ src/features/wallets/wallets.test.ts (4 tests) 7ms
+ ✓ src/features/auth/validation.test.ts (8 tests) 10ms
+
+ Test Files  12 passed (12)
+      Tests  73 passed (73)
+   Start at  03:26:23
+   Duration  17.08s (transform 585ms, setup 2.01s, collect 1.25s, tests 2.75s, environment 6.95s, prepare 1.40s)
+

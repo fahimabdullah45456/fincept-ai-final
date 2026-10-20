@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-20",
+  "scope": "confirmed financial agent in existing FINCEPT AI repository",
+  "backend": {
+    "command": "cd backend && /data/fincept-venv/bin/python -m pytest -q",
+    "passed": 204,
+    "skipped": 1,
+    "warnings": 3,
+    "result": "pass"
+  },
+  "unit": {
+    "command": "npm test",
+    "passed": 119,
+    "files": 17,
+    "result": "pass"
+  },
+  "build": {
+    "command": "npm run build",
+    "result": "pass",
+    "includes": "TypeScript project build and Vite production build",
+    "warning": "Existing main bundle exceeds 500 kB advisory"
+  },
+  "browser_regression": {
+    "command": "PYTHON_BIN=/data/fincept-venv/bin/python PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH=$(command -v chromium) npm run test:e2e",
+    "passed": 128,
+    "result": "pass"
+  },
+  "browser_actions": {
+    "command": "PYTHON_BIN=/data/fincept-venv/bin/python PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH=$(command -v chromium) ./node_modules/.bin/playwright test --config playwright.actions.config.ts",
+    "passed": 11,
+    "result": "pass",
+    "provider": "Explicit scripted native-tool test double; real FastAPI/auth/SQLite/financial commands"
+  },
+  "viewports": [
+    [
+      1440,
+      900
+    ],
+    [
+      1366,
+      768
+    ],
+    [
+      1280,
+      800
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "live_provider": "Not configured or verified; paid opt-in greeting test skipped. Native protocol verified with HTTP mock transport, not real upstream model.",
+  "lint": "No lint script configured; no lint pass claimed",
+  "scope_limits": [
+    "No agent delete/transfer/contribution/category write tools",
+    "No bank/payment/scheduled execution",
+    "No Planner/debt/hub mutations",
+    "Live model understanding/compatibility requires configured account and manual review"
+  ],
+  "restored_unrelated_qa_artifact_count": 110,
+  "new_dependencies": false,
+  "schema_version": 12
+}

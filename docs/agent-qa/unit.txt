@@ -1,0 +1,46 @@
+
+> fincept-ai@0.1.0 test
+> vitest run
+
+
+ RUN  v3.2.7 /data/fincept-ai
+
+ ✓ src/features/assistant/actions.test.tsx (9 tests) 1059ms
+   ✓ Financial approval UI > edits a plan, validates decimal input, and requires a separate revised confirmation  344ms
+ ✓ src/features/planner/dates.test.ts (10 tests) 3037ms
+   ✓ Planner civil date arithmetic > covers every month 1901–2100 without gaps or duplicate dates  2974ms
+ ✓ src/components/layout/AuthenticatedLayout.test.tsx (4 tests) 3486ms
+   ✓ starts minimized and supports keyboard toggle, tooltip and persistence  907ms
+   ✓ shares the same sidebar instance across every route and updates active selection  2013ms
+   ✓ keeps working if storage access is blocked  322ms
+ ✓ src/features/transactions/DateTimePicker.test.tsx (5 tests) 3354ms
+   ✓ Figma calendar > renders Monday-first days and applies only after confirmation  955ms
+   ✓ Figma calendar > navigates months and leap days correctly  875ms
+   ✓ Figma calendar > supports arrow and page keys across month boundaries  843ms
+   ✓ Figma calendar > rejects invalid 24-hour times without applying  355ms
+   ✓ Figma calendar > disables browsing before the supported date boundary  318ms
+ ✓ src/features/settings/settings.test.tsx (7 tests) 2702ms
+   ✓ loads the real profile data and provides URL-based category links  816ms
+   ✓ persists notification preferences only on successful save, retaining edits on failure  689ms
+   ✓ shares monetary privacy with header controls and preserves it after category navigation  399ms
+   ✓ applies persisted formatting to the shared Money component without changing its value  384ms
+ ✓ src/features/insights/InsightsCharts.test.tsx (3 tests) 899ms
+   ✓ Insights accessible charts > provides focus tooltips and removes them on Escape  563ms
+ ✓ src/features/overview/OverviewCards.test.tsx (5 tests) 520ms
+ ✓ src/features/assistant/assistant.test.tsx (9 tests) 362ms
+ ✓ src/features/auth/components/FormControls.test.tsx (3 tests) 433ms
+   ✓ toggles password visibility without submitting  370ms
+ ✓ src/features/auth/components/AuthBrand.test.tsx (2 tests) 372ms
+ ✓ src/features/insights/format.test.ts (11 tests) 44ms
+ ✓ src/features/hub/hub.test.ts (11 tests) 111ms
+ ✓ src/features/budgets/budgets.test.ts (3 tests) 79ms
+ ✓ src/features/wallets/wallets.test.ts (4 tests) 17ms
+ ✓ src/features/transactions/calculator.test.ts (22 tests) 15ms
+ ✓ src/features/auth/validation.test.ts (8 tests) 18ms
+ ✓ src/features/goals/goals.test.ts (3 tests) 7ms
+
+ Test Files  17 passed (17)
+      Tests  119 passed (119)
+   Start at  11:09:36
+   Duration  55.34s (transform 1.96s, setup 4.91s, collect 4.52s, tests 16.52s, environment 17.98s, prepare 3.84s)
+

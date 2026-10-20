@@ -1,0 +1,27 @@
+/* Desktop application shell. Normal flow reserves space for both sidebar widths. */
+.application-shell{display:grid;grid-template-columns:76px minmax(0,1fr);min-height:100vh;transition:grid-template-columns 200ms ease;background:var(--bg)}
+.application-shell[data-sidebar=expanded]{grid-template-columns:252px minmax(0,1fr)}
+.application-skip-link{position:fixed;z-index:30;left:90px;top:8px;padding:12px;background:white;border:1px solid var(--border);border-radius:10px;transform:translateY(-150%)}
+.application-skip-link:focus{transform:translateY(0)}
+.app-sidebar{position:sticky;top:0;height:100vh;height:100dvh;min-width:0;display:flex;flex-direction:column;gap:8px;padding:20px 15px 20px 16px;background:white;border-right:1px solid var(--border)}
+.sidebar-brand{display:flex;align-items:flex-start;flex:none;height:54px;gap:10px;padding:0 3px;color:#20211f;overflow:hidden;white-space:nowrap}
+.sidebar-brand:hover{text-decoration:none}.sidebar-brand img{flex:none;width:38px;height:38px}
+.sidebar-wordmark{display:block;margin-top:3px;font-size:23px;font-weight:700;line-height:31px;letter-spacing:1.5px}
+.sidebar-navigation{display:flex;flex-direction:column;gap:8px;min-height:0;overflow-y:auto;overflow-x:hidden;scrollbar-width:thin}
+.sidebar-tooltip-anchor{min-width:0;flex:none}.sidebar-footer{margin-top:auto;display:flex;flex-direction:column;gap:8px;padding-top:8px}
+.sidebar-link,.sidebar-toggle{position:relative;width:100%;height:44px;display:flex;align-items:center;gap:14px;padding:0 11px;border-radius:14px;background:transparent;color:#777873;text-decoration:none;text-align:left;white-space:nowrap;overflow:hidden;font-size:14px;font-weight:600;flex:none}
+.sidebar-link:hover,.sidebar-toggle:hover{background:#f7f7f4;color:#20211f;text-decoration:none}.sidebar-link.is-active{background:#fff0e8;color:#f9733b}
+.sidebar-link:focus-visible,.sidebar-toggle:focus-visible,.sidebar-brand:focus-visible{outline-offset:-3px}
+.sidebar-icon{display:block;flex:none;width:22px;height:22px;background:currentColor;mask-size:contain;mask-position:center;mask-repeat:no-repeat;-webkit-mask-size:contain;-webkit-mask-position:center;-webkit-mask-repeat:no-repeat}
+.sidebar-footer nav .sidebar-icon{width:22px;height:22px;mask-size:20px 20px;-webkit-mask-size:20px 20px}
+.sidebar-toggle svg{flex:none}
+.sidebar-label,.sidebar-wordmark{opacity:0;visibility:hidden;transform:translateX(-4px);transition:opacity 140ms ease,transform 200ms ease,visibility 200ms}
+.application-shell[data-sidebar=expanded] .sidebar-label,.application-shell[data-sidebar=expanded] .sidebar-wordmark{opacity:1;visibility:visible;transform:translateX(0)}
+.sidebar-tooltip{position:fixed;transform:translateY(-50%);pointer-events:none;z-index:40;padding:8px 12px;border-radius:8px;background:#20211f;color:white;font-size:12px;line-height:18px;box-shadow:0 4px 12px #20211f1a;white-space:nowrap}
+.application-workspace{min-width:0}.application-header{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 32px;font-size:20px;font-weight:800}.application-header-note{font-size:12px;font-weight:600;color:var(--secondary)}
+.application-main{min-width:0;padding:16px 32px 32px;overflow-wrap:anywhere}.segment-placeholder{max-width:760px;padding:32px;border:1px solid var(--border);border-radius:20px;background:white;box-shadow:0 8px 20px #20211f05}.segment-eyebrow{font-size:12px;color:var(--brand-dark);font-weight:700}.segment-placeholder h1{font-size:28px;line-height:1.4;letter-spacing:-.8px;margin-top:12px}.segment-placeholder p{font-size:14px;line-height:24px;color:var(--secondary);margin:12px 0 20px}.segment-placeholder a{font-size:14px;font-weight:700}
+/* Auth completion reuses its existing card inside the authenticated shell. */
+.application-main .completion-page{min-height:calc(100vh - 120px);padding:24px;max-width:100%}.application-main .completion-page .auth-card{width:min(500px,100%)}
+@media(prefers-reduced-motion:reduce){.application-shell,.sidebar-label,.sidebar-wordmark{transition:none;transform:none}}
+/* Do not let generic content wrapping split the corrected live FINCEPT wordmark. */
+.application-main .brand-logo{overflow-wrap:normal;white-space:nowrap}

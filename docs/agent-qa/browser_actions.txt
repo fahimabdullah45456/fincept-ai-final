@@ -1,0 +1,21 @@
+[WebServer] INFO:     Started server process [20798]
+[WebServer] INFO:     Waiting for application startup.
+[WebServer] INFO:     Application startup complete.
+[WebServer] INFO:     Uvicorn running on http://127.0.0.1:8091 (Press CTRL+C to quit)
+
+Running 11 tests using 1 worker
+
+
+  ✓   1 agent-tests/actions.spec.ts:13:1 › native tool proposal saves only after explicit approval and appears on real budgets (6.4s)
+  ✓   2 agent-tests/actions.spec.ts:15:1 › editing regenerates review version without applying changes; cancellation stays cancelled (4.7s)
+  ✓   3 agent-tests/actions.spec.ts:17:1 › combined budget goal and transaction use real canonical records and saved links (4.5s)
+  ✓   4 agent-tests/actions.spec.ts:19:1 › confirmed changes invalidate an already open dashboard in a second tab (6.7s)
+  ✓   5 agent-tests/actions.spec.ts:21:1 › lost confirmation response recovers durable receipt without duplicate financial writes (3.6s)
+  ✓   6 agent-tests/actions.spec.ts:23:1 › privacy conceals plan data and prevents blind approval; keyboard confirmation works (3.5s)
+  ✓   7 agent-tests/actions.spec.ts:25:85 › action review stays usable at 1440x900 (4.0s)
+  ✓   8 agent-tests/actions.spec.ts:25:85 › action review stays usable at 1366x768 (4.8s)
+  ✓   9 agent-tests/actions.spec.ts:25:85 › action review stays usable at 1280x800 (5.0s)
+  ✓  10 agent-tests/actions.spec.ts:25:85 › action review stays usable at 1024x768 (4.7s)
+  ✓  11 agent-tests/actions.spec.ts:25:85 › action review stays usable at 390x844 (4.2s)
+
+  11 passed (1.0m)

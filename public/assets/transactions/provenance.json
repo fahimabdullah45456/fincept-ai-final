@@ -1,0 +1,77 @@
+{
+  "file_key": "kpEbLoKLaLiUcB8Q6xxgRl",
+  "method": "Figma Plugin API exportAsync SVG, read-only",
+  "assets": [
+    {
+      "name": "download",
+      "id": "2001:7133",
+      "originalName": "Icon/dl",
+      "width": 18,
+      "height": 18
+    },
+    {
+      "name": "list",
+      "id": "2001:7193",
+      "originalName": "Icon/list",
+      "width": 18,
+      "height": 18
+    },
+    {
+      "name": "sort",
+      "id": "2001:7242",
+      "originalName": "Icon/sort",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "name": "more",
+      "id": "2001:7309",
+      "originalName": "Frame",
+      "width": 20,
+      "height": 20
+    },
+    {
+      "name": "cart",
+      "id": "2001:7283",
+      "originalName": "Icon/cart",
+      "width": 18,
+      "height": 18
+    },
+    {
+      "name": "calculator",
+      "id": "I2001:9343;227:86247",
+      "originalName": "Icon/calc",
+      "width": 20,
+      "height": 20
+    },
+    {
+      "name": "clock",
+      "id": "2001:9321",
+      "originalName": "Icon/clock",
+      "width": 20,
+      "height": 20
+    },
+    {
+      "name": "swap",
+      "id": "2001:10126",
+      "originalName": "Icon/swap",
+      "width": 20,
+      "height": 20
+    },
+    {
+      "name": "transfer",
+      "id": "2001:7456",
+      "originalName": "Icon/tx",
+      "width": 18,
+      "height": 18
+    },
+    {
+      "name": "backspace",
+      "id": "2001:9265",
+      "originalName": "\u232b",
+      "width": 24,
+      "height": 29,
+      "viewBox": "0 0 22 14"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "feature": "Budgets",
+  "figma": {
+    "file": "kpEbLoKLaLiUcB8Q6xxgRl",
+    "page": "2001:7026",
+    "desktop": "2001:71662",
+    "write_operations": 0,
+    "original_svg_count": 11
+  },
+  "checks": [
+    {
+      "command": "npm run build",
+      "result": "PASS"
+    },
+    {
+      "command": "npm test",
+      "result": "PASS",
+      "tests": 56,
+      "files": 9
+    },
+    {
+      "command": "cd backend && .venv/bin/python -m pytest -q",
+      "result": "PASS",
+      "tests": 58,
+      "warnings": 2
+    },
+    {
+      "command": "PYTHON_BIN=/data/fincept-ai/backend/.venv/bin/python PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH=$(which chromium) npm run test:e2e",
+      "result": "PASS",
+      "tests": 62,
+      "duration": "3.3m"
+    },
+    {
+      "command": "PYTHON_BIN=/data/fincept-ai/backend/.venv/bin/python PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH=$(which chromium) npm run test:e2e -- tests/budgets.spec.ts",
+      "result": "PASS",
+      "tests": 8,
+      "repeat_not_additional": true,
+      "duration": "44.1s"
+    }
+  ],
+  "distinct_tests": 176,
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 900,
+      "sidebar": [
+        "expanded",
+        "minimized"
+      ]
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "sidebar": [
+        "expanded",
+        "minimized"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "sidebar": [
+        "expanded",
+        "minimized"
+      ]
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "sidebar": [
+        "expanded",
+        "minimized"
+      ]
+    }
+  ],
+  "visual_review": [
+    "Original Figma desktop/create/details compared to running UI",
+    "Original 11 SVG exports retained and hash tracked",
+    "Scoped page geometry, card/form spacing and detail monetary typography corrected",
+    "Final narrow expanded sidebar and details captures reviewed; no pixel-identity claim"
+  ],
+  "persistence": "Real FastAPI/SQLite successful writes; only intentional failure/loading and UI-only sidebar fixtures intercepted",
+  "warnings": [
+    "Starlette/httpx TestClient deprecation",
+    "Pydantic Field alias warning"
+  ],
+  "resolved_attempts": [
+    "pytest root cwd missing app import: reran from backend",
+    "Production test configured actual HTTPS Settings",
+    "Schema migration assertion narrowed after restoring accidental unrelated expectation",
+    "Full browser fixture isolated registration throttle reset; production authentication unchanged",
+    "Missing test:unit script: reran actual npm test command"
+  ],
+  "migration": 6,
+  "limitations": [
+    "Explicit saved windows only; no automatic renewal/rollover",
+    "No frozen historical snapshot or refund/reversal model",
+    "Budget alerts are live on-page, not push/email",
+    "No production deployment performed"
+  ]
+}

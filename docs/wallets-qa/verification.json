@@ -1,0 +1,51 @@
+{
+  "build": "PASS \u2014 TypeScript + Vite",
+  "frontend_unit": {
+    "passed": 53,
+    "files": 8
+  },
+  "backend": {
+    "passed": 41,
+    "warnings": [
+      "Starlette/httpx TestClient deprecation",
+      "Pydantic Field alias warning during concurrent TestClient test"
+    ]
+  },
+  "full_browser": {
+    "passed": 54,
+    "duration": "3.8m"
+  },
+  "final_wallet_browser_rerun": {
+    "passed": 8,
+    "note": "Repeats the wallet tests after final select styling and additional list/Add Money/Transfer geometry assertions"
+  },
+  "distinct_passed": 148,
+  "viewports": [
+    [
+      1440,
+      900
+    ],
+    [
+      1366,
+      768
+    ],
+    [
+      1280,
+      800
+    ],
+    [
+      1024,
+      768
+    ]
+  ],
+  "sidebar_widths": [
+    76,
+    252
+  ],
+  "preserved_source_asset_dependency_files": 34,
+  "figma_read_only": true,
+  "new_original_svg_count": 14,
+  "financial_success_mocked": false,
+  "runtime_external_requirements": "No new service; manual BDT with existing FastAPI/SQLite",
+  "migration": "Additive v5 on startup; back up existing data first"
+}

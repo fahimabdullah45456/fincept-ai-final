@@ -1,0 +1,14 @@
+import {ApiError} from '../auth/services/authApi';
+import type {Dataset} from '../transactions/types';
+export type Goal={id:string;name:string;category:string;target_minor:number;saved_minor:number;remaining_minor:number;percentage:number|null;target_date:string|null;monthly_minor:number;description:string;icon:string;status:'In Progress'|'Paused'|'Completed';state:'active'|'paused';archived:number;version:number;created_at:string;legacy_unlinked_minor:number};
+export type Summary={target_minor:number;saved_minor:number;remaining_minor:number;percentage:number|null;active_count:number};
+export type Collection={items:Goal[];total:number;filtered_count:number;summary:Summary;categories:string[];today:string;scope:string};
+export type FundingWallet={id:string;name:string;version:number;status:string;archived:number;opening_date:string;balance_minor:number;allocated_minor:number;available_minor:number;coverage_shortfall_minor:number};
+export type Options={categories:string[];icons:string[];wallets:FundingWallet[]};
+export type History={goal:Goal;items:{id:string;amount_minor:number;method:string;wallet_name:string|null;occurred_at:string;note:string}[];total:number;page:number;limit:number};
+export type Review={goal:Goal;wallet:FundingWallet;projected_minor:number;remaining_minor:number;occurred_at:string};
+const base=(import.meta.env.VITE_API_BASE_URL||'').replace(/\/$/,'');
+export async function goalRequest<T>(path:string,dataset:Dataset,method='GET',body?:unknown,signal?:AbortSignal):Promise<T>{let r:Response;try{r=await fetch(`${base}/api/goals${path}${path.includes('?')?'&':'?'}dataset=${dataset}`,{method,credentials:'include',headers:method==='GET'?undefined:{'Content-Type':'application/json','X-Fincept-Request':'1'},body:body===undefined?undefined:JSON.stringify(body),signal:signal?AbortSignal.any([signal,AbortSignal.timeout(15000)]):AbortSignal.timeout(15000)});}catch(e){if(signal?.aborted)throw e;throw new ApiError('Unable to reach Financial Goals. Check your connection and retry.',0);}const data=await r.json().catch(()=>({}));if(!r.ok)throw new ApiError(data.message||'Could not complete this goal request.',r.status,data.field_errors||{});return data;}
+export function monthlyTarget(g:Pick<Goal,'monthly_minor'|'target_date'|'remaining_minor'>,today:string){if(g.monthly_minor)return g.monthly_minor;if(g.remaining_minor<=0)return 0;if(!g.target_date||g.target_date<today)return null;const a=new Date(today+'T12:00:00'),b=new Date(g.target_date+'T12:00:00');const months=(b.getFullYear()-a.getFullYear())*12+b.getMonth()-a.getMonth()+1;return Math.ceil(g.remaining_minor/Math.max(1,months));}
+export function goalIcon(g:Pick<Goal,'icon'|'category'>){return g.icon!=='category'?g.icon:g.category==='Emergency Fund'?'shield':g.category==='Electronics'?'laptop':g.category==='Travel'?'travel':'target';}
+export function fill(percent:number|null,saved=0){return Math.max(0,Math.min(100,percent??(saved>0?100:0)));}

@@ -1,0 +1,31 @@
+
+> fincept-ai@0.1.0 test
+> vitest run
+
+
+ RUN  v3.2.7 /vercel/sandbox/data/fincept/fincept-ai
+
+ ✓ src/features/planner/dates.test.ts (10 tests) 1706ms
+   ✓ Planner civil date arithmetic > covers every month 1901–2100 without gaps or duplicate dates  1679ms
+ ✓ src/features/transactions/DateTimePicker.test.tsx (5 tests) 947ms
+   ✓ Figma calendar > renders Monday-first days and applies only after confirmation  443ms
+ ✓ src/components/layout/AuthenticatedLayout.test.tsx (4 tests) 1224ms
+   ✓ shares the same sidebar instance across every route and updates active selection  826ms
+ ✓ src/features/insights/InsightsCharts.test.tsx (3 tests) 166ms
+ ✓ src/features/overview/OverviewCards.test.tsx (5 tests) 342ms
+ ✓ src/features/auth/components/FormControls.test.tsx (3 tests) 391ms
+   ✓ toggles password visibility without submitting  300ms
+ ✓ src/features/assistant/assistant.test.tsx (9 tests) 207ms
+ ✓ src/features/auth/components/AuthBrand.test.tsx (2 tests) 73ms
+ ✓ src/features/insights/format.test.ts (11 tests) 22ms
+ ✓ src/features/transactions/calculator.test.ts (22 tests) 6ms
+ ✓ src/features/budgets/budgets.test.ts (3 tests) 17ms
+ ✓ src/features/wallets/wallets.test.ts (4 tests) 6ms
+ ✓ src/features/auth/validation.test.ts (8 tests) 7ms
+ ✓ src/features/goals/goals.test.ts (3 tests) 3ms
+
+ Test Files  14 passed (14)
+      Tests  92 passed (92)
+   Start at  05:16:05
+   Duration  18.51s (transform 589ms, setup 1.56s, collect 1.35s, tests 5.12s, environment 6.47s, prepare 1.49s)
+

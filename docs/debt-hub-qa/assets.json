@@ -1,0 +1,38 @@
+[
+  {
+    "file": "public/assets/debt/obligation.svg",
+    "file_key": "kpEbLoKLaLiUcB8Q6xxgRl",
+    "node": "167:22297",
+    "name": "obligation",
+    "viewBox": "0 0 19.1167 12.7",
+    "sha256": "58719536909074fddec2173f0e395dd103fb3a1dcc251575871cb22ed07334cc",
+    "usage": "Original UI icon, never a screen raster"
+  },
+  {
+    "file": "public/assets/debt/lent.svg",
+    "file_key": "kpEbLoKLaLiUcB8Q6xxgRl",
+    "node": "2001:100683",
+    "name": "lent",
+    "viewBox": "0 0 15.0333 16.7",
+    "sha256": "9af3e07daad327c4095908a6ae56b98efcdada50d368f73a2fd7722ac06ced6b",
+    "usage": "Original UI icon, never a screen raster"
+  },
+  {
+    "file": "public/assets/debt/overdue.svg",
+    "file_key": "kpEbLoKLaLiUcB8Q6xxgRl",
+    "node": "2001:100698",
+    "name": "overdue",
+    "viewBox": "0 0 18.3667 16.7",
+    "sha256": "2b7f4da9f660bf38ae7741812dd0fbc86c56c540b9644f123c7027d76ef24fc6",
+    "usage": "Original UI icon, never a screen raster"
+  },
+  {
+    "file": "public/assets/hub/shopping.svg",
+    "file_key": "kpEbLoKLaLiUcB8Q6xxgRl",
+    "node": "176:27251",
+    "name": "shopping",
+    "viewBox": "0 0 16.7 18.3667",
+    "sha256": "8abb00f337a8cc2261e9200521f1c46a4a5051e5ec14ead2b9fa02c0d3e8f853",
+    "usage": "Original UI icon, never a screen raster"
+  }
+]

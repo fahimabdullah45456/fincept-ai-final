@@ -1,0 +1,3136 @@
+[
+  {
+    "id": "2001:75706",
+    "name": "Financial Goals / Desktop",
+    "children": [
+      {
+        "id": "2001:75707",
+        "name": "Sidebar",
+        "type": "FRAME",
+        "x": 0,
+        "y": 0,
+        "w": 76,
+        "h": 1400
+      },
+      {
+        "id": "2001:75771",
+        "name": "Main",
+        "type": "FRAME",
+        "x": 76,
+        "y": 0,
+        "w": 1364,
+        "h": 1400
+      }
+    ],
+    "texts": [
+      {
+        "id": "2001:75774",
+        "text": "Financial Goals",
+        "size": 20,
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        }
+      },
+      {
+        "id": "2001:75775",
+        "text": "Your plans, within reach",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:75784",
+        "text": "Ask AI",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:75795",
+        "text": "T",
+        "size": 15,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:75796",
+        "text": "Tamim",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:75800",
+        "text": "Financial Goals",
+        "size": 30,
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        }
+      },
+      {
+        "id": "2001:75801",
+        "text": "Turn your financial plans into achievable milestones.",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:75803",
+        "text": "All Goals  \u25be",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:75808",
+        "text": "Create Goal",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:75815",
+        "text": "TOTAL SAVINGS TARGET",
+        "size": 11,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:75816",
+        "text": "\u09f3200,000",
+        "size": 28,
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        }
+      },
+      {
+        "id": "2001:75817",
+        "text": "Across all active goals",
+        "size": 12,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:75823",
+        "text": "TOTAL SAVED",
+        "size": 11,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:75824",
+        "text": "\u09f372,000",
+        "size": 28,
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        }
+      },
+      {
+        "id": "2001:75825",
+        "text": "36% of your total target",
+        "size": 12,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:75831",
+        "text": "REMAINING TO SAVE",
+        "size": 11,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:75832",
+        "text": "\u09f3128,000",
+        "size": 28,
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        }
+      },
+      {
+        "id": "2001:75833",
+        "text": "Across active goals",
+        "size": 12,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:75839",
+        "text": "ACTIVE GOALS",
+        "size": 11,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:75840",
+        "text": "4",
+        "size": 28,
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        }
+      },
+      {
+        "id": "2001:75841",
+        "text": "4 goals in progress",
+        "size": 12,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:75843",
+        "text": "Your Savings Journey",
+        "size": 18,
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        }
+      },
+      {
+        "id": "2001:75844",
+        "text": "Active goals only",
+        "size": 12,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:75845",
+        "text": "\u09f372,000",
+        "size": 26,
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        }
+      },
+      {
+        "id": "2001:75846",
+        "text": "saved of \u09f3200,000 total target",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:75847",
+        "text": "36%",
+        "size": 24,
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        }
+      },
+      {
+        "id": "2001:75850",
+        "text": "\u09f3128,000 left to save",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:75851",
+        "text": "Every contribution brings you closer to your goals.",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:75853",
+        "text": "Your Goals",
+        "size": 22,
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        }
+      },
+      {
+        "id": "2001:75854",
+        "text": "4 active goals \u00b7 18 October 2026",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:75859",
+        "text": "Search goals...",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:75861",
+        "text": "All Statuses  \u25be",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:75863",
+        "text": "All Categories  \u25be",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:75865",
+        "text": "Recently Created  \u25be",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:75872",
+        "text": "Emergency Fund",
+        "size": 18,
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        }
+      },
+      {
+        "id": "2001:75873",
+        "text": "Emergency Fund",
+        "size": 12,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:75875",
+        "text": "In Progress",
+        "size": 11,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:75877",
+        "text": "\u22ee",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:75878",
+        "text": "\u09f340,000",
+        "size": 27,
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        }
+      },
+      {
+        "id": "2001:75879",
+        "text": "of \u09f3100,000 target",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:75882",
+        "text": "40% saved",
+        "size": 12,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:75883",
+        "text": "\u09f360,000 remaining",
+        "size": 12,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:75884",
+        "text": "Target date \u00b7 31 Mar 2027",
+        "size": 12,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:75885",
+        "text": "\u09f310,000 / month",
+        "size": 12,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:75888",
+        "text": "View Details",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:75893",
+        "text": "Add Savings",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:75899",
+        "text": "New Laptop",
+        "size": 18,
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        }
+      },
+      {
+        "id": "2001:75900",
+        "text": "Electronics",
+        "size": 12,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:75902",
+        "text": "In Progress",
+        "size": 11,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:75904",
+        "text": "\u22ee",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:75905",
+        "text": "\u09f324,000",
+        "size": 27,
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        }
+      },
+      {
+        "id": "2001:75906",
+        "text": "of \u09f360,000 target",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:75909",
+        "text": "40% saved",
+        "size": 12,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:75910",
+        "text": "\u09f336,000 remaining",
+        "size": 12,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:75911",
+        "text": "Target date \u00b7 31 Jan 2027",
+        "size": 12,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:75912",
+        "text": "\u09f39,000 / month",
+        "size": 12,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:75915",
+        "text": "View Details",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:75920",
+        "text": "Add Savings",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:75925",
+        "text": "Vacation",
+        "size": 18,
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        }
+      },
+      {
+        "id": "2001:75926",
+        "text": "Travel",
+        "size": 12,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:75928",
+        "text": "In Progress",
+        "size": 11,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:75930",
+        "text": "\u22ee",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:75931",
+        "text": "\u09f35,000",
+        "size": 27,
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        }
+      },
+      {
+        "id": "2001:75932",
+        "text": "of \u09f325,000 target",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:75935",
+        "text": "20% saved",
+        "size": 12,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:75936",
+        "text": "\u09f320,000 remaining",
+        "size": 12,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:75937",
+        "text": "Target date \u00b7 30 Jun 2027",
+        "size": 12,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:75938",
+        "text": "\u09f33,000 / month",
+        "size": 12,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:75941",
+        "text": "View Details",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:75946",
+        "text": "Add Savings",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:75952",
+        "text": "New Phone",
+        "size": 18,
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        }
+      },
+      {
+        "id": "2001:75953",
+        "text": "Electronics",
+        "size": 12,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:75955",
+        "text": "In Progress",
+        "size": 11,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:75957",
+        "text": "\u22ee",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:75958",
+        "text": "\u09f33,000",
+        "size": 27,
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        }
+      },
+      {
+        "id": "2001:75959",
+        "text": "of \u09f315,000 target",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:75962",
+        "text": "20% saved",
+        "size": 12,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:75963",
+        "text": "\u09f312,000 remaining",
+        "size": 12,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:75964",
+        "text": "Target date \u00b7 31 Dec 2026",
+        "size": 12,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:75965",
+        "text": "\u09f34,000 / month",
+        "size": 12,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:75968",
+        "text": "View Details",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:75973",
+        "text": "Add Savings",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:75975",
+        "text": "Savings are allocations of existing funds, not extra assets. Contributions never count as new income unless explicitly classified as income.",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:75976",
+        "text": "Illustrative BDT records \u00b7 Goals reference wallet funds without duplicating your assets.",
+        "size": 12,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "2001:79265",
+    "name": "Financial Goals / Create Goal",
+    "children": [
+      {
+        "id": "2001:79266",
+        "name": "Modal Scrim",
+        "type": "FRAME",
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 1400
+      },
+      {
+        "id": "2001:79267",
+        "name": "Dialog",
+        "type": "FRAME",
+        "x": 360,
+        "y": 294,
+        "w": 720,
+        "h": 812
+      }
+    ],
+    "texts": [
+      {
+        "id": "2001:79268",
+        "text": "Create Goal",
+        "size": 22,
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        }
+      },
+      {
+        "id": "2001:79269",
+        "text": "Give your next milestone a plan.",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:79271",
+        "text": "\u00d7",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:79273",
+        "text": "Goal name",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:79275",
+        "text": "e.g. Professional Course",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:79276",
+        "text": "Goal category",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:79278",
+        "text": "Select a category  \u25be",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:79279",
+        "text": "Target amount",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:79281",
+        "text": "\u09f30",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:79282",
+        "text": "BDT \u00b7 Bangladeshi Taka",
+        "size": 12,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:79283",
+        "text": "Current saved amount",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:79285",
+        "text": "\u09f30",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:79286",
+        "text": "Starts at zero \u00b7 Allocate funds after creation.",
+        "size": 12,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:79287",
+        "text": "Target date",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:79289",
+        "text": "30 Apr 2027",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:79290",
+        "text": "Monthly contribution target",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:79292",
+        "text": "\u09f33,000",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:79293",
+        "text": "A plan, not an automatic transfer.",
+        "size": 12,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:79294",
+        "text": "Description (optional)",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:79296",
+        "text": "What are you saving for?",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:79297",
+        "text": "Goal icon (optional)",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:79299",
+        "text": "\u25ce  Use category icon  \u25be",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:79301",
+        "text": "A goal is an allocation plan, not a new wallet or extra asset. Starting savings must be backed by a recorded contribution.",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:79303",
+        "text": "Cancel",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:79305",
+        "text": "Save Goal",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "2001:79595",
+    "name": "Financial Goals / Details \u2013 Emergency Fund",
+    "children": [
+      {
+        "id": "2001:79596",
+        "name": "Modal Scrim",
+        "type": "FRAME",
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 1400
+      },
+      {
+        "id": "2001:79597",
+        "name": "Dialog",
+        "type": "FRAME",
+        "x": 340,
+        "y": 284,
+        "w": 760,
+        "h": 832
+      }
+    ],
+    "texts": [
+      {
+        "id": "2001:79598",
+        "text": "Emergency Fund",
+        "size": 22,
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        }
+      },
+      {
+        "id": "2001:79599",
+        "text": "A safety net for unexpected expenses and peace of mind.",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:79601",
+        "text": "\u00d7",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:79604",
+        "text": "Target amount",
+        "size": 12,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:79605",
+        "text": "\u09f3100,000",
+        "size": 23,
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        }
+      },
+      {
+        "id": "2001:79607",
+        "text": "Saved amount",
+        "size": 12,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:79608",
+        "text": "\u09f340,000",
+        "size": 23,
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        }
+      },
+      {
+        "id": "2001:79610",
+        "text": "Remaining",
+        "size": 12,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:79611",
+        "text": "\u09f360,000",
+        "size": 23,
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        }
+      },
+      {
+        "id": "2001:79614",
+        "text": "40% complete",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:79615",
+        "text": "In Progress",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:79616",
+        "text": "Target \u00b7 31 Mar 2027",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:79617",
+        "text": "\u09f310,000 monthly contribution target",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:79618",
+        "text": "Your milestones",
+        "size": 16,
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        }
+      },
+      {
+        "id": "2001:79620",
+        "text": "\u2713 25% reached",
+        "size": 12,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:79622",
+        "text": "\u25cb 50% upcoming",
+        "size": 12,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:79624",
+        "text": "\u25cb 75% upcoming",
+        "size": 12,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:79626",
+        "text": "\u25cb 100% upcoming",
+        "size": 12,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:79627",
+        "text": "Recent contributions",
+        "size": 17,
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        }
+      },
+      {
+        "id": "2001:79629",
+        "text": "Salary allocation",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:79630",
+        "text": "15 Oct 2026 \u00b7 Wallet allocation",
+        "size": 12,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:79631",
+        "text": "+\u09f310,000",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:79634",
+        "text": "Monthly allocation",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:79635",
+        "text": "01 Oct 2026 \u00b7 Wallet allocation",
+        "size": 12,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:79636",
+        "text": "+\u09f310,000",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:79639",
+        "text": "Opening allocation",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:79640",
+        "text": "01 Sep 2026 \u00b7 Wallet allocation",
+        "size": 12,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:79641",
+        "text": "+\u09f320,000",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:79643",
+        "text": "Created 01 Sep 2026 \u00b7 Goal savings are allocations, not additional assets.",
+        "size": 12,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:79645",
+        "text": "Edit Goal",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:79650",
+        "text": "Add Savings",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "2001:79900",
+    "name": "Financial Goals / Add Savings",
+    "children": [
+      {
+        "id": "2001:79901",
+        "name": "Modal Scrim",
+        "type": "FRAME",
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 1400
+      },
+      {
+        "id": "2001:79902",
+        "name": "Dialog",
+        "type": "FRAME",
+        "x": 380,
+        "y": 261,
+        "w": 680,
+        "h": 878
+      }
+    ],
+    "texts": [
+      {
+        "id": "2001:79903",
+        "text": "Add Savings",
+        "size": 22,
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        }
+      },
+      {
+        "id": "2001:79904",
+        "text": "Record one contribution with a clear funding source.",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:79906",
+        "text": "\u00d7",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:79908",
+        "text": "Financial goal",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:79910",
+        "text": "Emergency Fund  \u25be",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:79911",
+        "text": "Funding method",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:79913",
+        "text": "Allocate existing wallet funds  \u25be",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:79914",
+        "text": "Contribution amount",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:79916",
+        "text": "\u09f35,000",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:79917",
+        "text": "Date",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:79919",
+        "text": "18 Oct 2026",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:79920",
+        "text": "Source wallet",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:79922",
+        "text": "Main Bank Account  \u25be",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:79923",
+        "text": "Available to allocate: \u09f312,000 \u00b7 Balance: \u09f335,000",
+        "size": 12,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:79924",
+        "text": "Note (optional)",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:79926",
+        "text": "October savings allocation",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:79927",
+        "text": "\u2713  Limit contribution to the remaining target",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:79929",
+        "text": "Current saved",
+        "size": 11,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:79930",
+        "text": "\u09f340,000",
+        "size": 18,
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        }
+      },
+      {
+        "id": "2001:79931",
+        "text": "Contribution",
+        "size": 11,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:79932",
+        "text": "\u09f35,000",
+        "size": 18,
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        }
+      },
+      {
+        "id": "2001:79933",
+        "text": "Projected saved",
+        "size": 11,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:79934",
+        "text": "\u09f345,000",
+        "size": 18,
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        }
+      },
+      {
+        "id": "2001:79935",
+        "text": "Earmarks existing funds. Wallet balance and total assets stay unchanged; this is not income or expense.",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:79937",
+        "text": "Cancel",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:79939",
+        "text": "Confirm Contribution",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "2001:80182",
+    "name": "Financial Goals / Review Contribution",
+    "children": [
+      {
+        "id": "2001:80183",
+        "name": "Modal Scrim",
+        "type": "FRAME",
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 1400
+      },
+      {
+        "id": "2001:80184",
+        "name": "Dialog",
+        "type": "FRAME",
+        "x": 400,
+        "y": 410,
+        "w": 640,
+        "h": 580
+      }
+    ],
+    "texts": [
+      {
+        "id": "2001:80185",
+        "text": "Confirm Contribution",
+        "size": 22,
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        }
+      },
+      {
+        "id": "2001:80186",
+        "text": "Review the allocation before recording it.",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:80188",
+        "text": "\u00d7",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:80190",
+        "text": "Emergency Fund",
+        "size": 18,
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        }
+      },
+      {
+        "id": "2001:80191",
+        "text": "\u09f35,000",
+        "size": 32,
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        }
+      },
+      {
+        "id": "2001:80193",
+        "text": "Main Bank Account \u2192 Emergency Fund allocation\nSaved: \u09f340,000 \u2192 \u09f345,000 \u00b7 Remaining: \u09f355,000\nUnallocated wallet funds: \u09f312,000 \u2192 \u09f37,000",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:80195",
+        "text": "Wallet balance stays \u09f335,000. Total assets do not increase. Save once with one linked allocation record; no new income or expense.",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:80197",
+        "text": "Back",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:80199",
+        "text": "Record Contribution",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "2001:80215",
+    "name": "Financial Goals / Menu \u2013 Emergency Fund",
+    "children": [
+      {
+        "id": "2001:80216",
+        "name": "Modal Scrim",
+        "type": "FRAME",
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 1400
+      },
+      {
+        "id": "2001:80217",
+        "name": "Dialog",
+        "type": "FRAME",
+        "x": 540,
+        "y": 520,
+        "w": 360,
+        "h": 360
+      }
+    ],
+    "texts": [
+      {
+        "id": "2001:80218",
+        "text": "Emergency Fund",
+        "size": 22,
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        }
+      },
+      {
+        "id": "2001:80219",
+        "text": "Manage your savings plan.",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:80221",
+        "text": "\u00d7",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:80224",
+        "text": "View Details",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:80226",
+        "text": "Edit Goal",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:80228",
+        "text": "Pause Goal",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:80230",
+        "text": "Delete Goal",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "2001:80279",
+    "name": "Financial Goals / Status Filter",
+    "children": [
+      {
+        "id": "2001:80280",
+        "name": "Modal Scrim",
+        "type": "FRAME",
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 1400
+      },
+      {
+        "id": "2001:80281",
+        "name": "Dialog",
+        "type": "FRAME",
+        "x": 520,
+        "y": 520,
+        "w": 400,
+        "h": 360
+      }
+    ],
+    "texts": [
+      {
+        "id": "2001:80282",
+        "text": "Goal status",
+        "size": 22,
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        }
+      },
+      {
+        "id": "2001:80283",
+        "text": "Choose which goals to view.",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:80285",
+        "text": "\u00d7",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:80288",
+        "text": "All",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:80290",
+        "text": "In Progress",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:80292",
+        "text": "Completed",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:80294",
+        "text": "Paused",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "2001:80295",
+    "name": "Financial Goals / Category Filter",
+    "children": [
+      {
+        "id": "2001:80296",
+        "name": "Modal Scrim",
+        "type": "FRAME",
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 1400
+      },
+      {
+        "id": "2001:80297",
+        "name": "Dialog",
+        "type": "FRAME",
+        "x": 520,
+        "y": 493,
+        "w": 400,
+        "h": 414
+      }
+    ],
+    "texts": [
+      {
+        "id": "2001:80298",
+        "text": "Goal category",
+        "size": 22,
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        }
+      },
+      {
+        "id": "2001:80299",
+        "text": "Filter your savings plans.",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:80301",
+        "text": "\u00d7",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:80304",
+        "text": "All Categories",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:80306",
+        "text": "Emergency Fund",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:80308",
+        "text": "Electronics",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:80310",
+        "text": "Travel",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:80312",
+        "text": "Education",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "2001:80313",
+    "name": "Financial Goals / Sort",
+    "children": [
+      {
+        "id": "2001:80314",
+        "name": "Modal Scrim",
+        "type": "FRAME",
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 1400
+      },
+      {
+        "id": "2001:80315",
+        "name": "Dialog",
+        "type": "FRAME",
+        "x": 520,
+        "y": 520,
+        "w": 400,
+        "h": 360
+      }
+    ],
+    "texts": [
+      {
+        "id": "2001:80316",
+        "text": "Sort goals",
+        "size": 22,
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        }
+      },
+      {
+        "id": "2001:80317",
+        "text": "Choose a display order.",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:80319",
+        "text": "\u00d7",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:80322",
+        "text": "Recently Created",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:80324",
+        "text": "Target Date",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:80326",
+        "text": "Highest Target",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:80328",
+        "text": "Lowest Progress",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "2001:80329",
+    "name": "Financial Goals / Goal Categories",
+    "children": [
+      {
+        "id": "2001:80330",
+        "name": "Modal Scrim",
+        "type": "FRAME",
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 1400
+      },
+      {
+        "id": "2001:80331",
+        "name": "Dialog",
+        "type": "FRAME",
+        "x": 520,
+        "y": 439,
+        "w": 400,
+        "h": 522
+      }
+    ],
+    "texts": [
+      {
+        "id": "2001:80332",
+        "text": "Goal category",
+        "size": 22,
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        }
+      },
+      {
+        "id": "2001:80333",
+        "text": "Give this goal a category.",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:80335",
+        "text": "\u00d7",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:80338",
+        "text": "Emergency Fund",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:80340",
+        "text": "Education",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:80342",
+        "text": "Travel",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:80344",
+        "text": "Electronics",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:80346",
+        "text": "Home",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:80348",
+        "text": "Vehicle",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:80350",
+        "text": "Other",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "2001:80351",
+    "name": "Financial Goals / Funding Method",
+    "children": [
+      {
+        "id": "2001:80352",
+        "name": "Modal Scrim",
+        "type": "FRAME",
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 1400
+      },
+      {
+        "id": "2001:80353",
+        "name": "Dialog",
+        "type": "FRAME",
+        "x": 480,
+        "y": 574,
+        "w": 480,
+        "h": 252
+      }
+    ],
+    "texts": [
+      {
+        "id": "2001:80354",
+        "text": "Contribution funding",
+        "size": 22,
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        }
+      },
+      {
+        "id": "2001:80355",
+        "text": "Avoid creating duplicate financial records.",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:80357",
+        "text": "\u00d7",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:80360",
+        "text": "Allocate existing wallet funds",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:80362",
+        "text": "New external deposit",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "2001:80363",
+    "name": "Financial Goals / Saving Contribution",
+    "children": [
+      {
+        "id": "2001:80364",
+        "name": "Modal Scrim",
+        "type": "FRAME",
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 1400
+      },
+      {
+        "id": "2001:80365",
+        "name": "Dialog",
+        "type": "FRAME",
+        "x": 420,
+        "y": 540,
+        "w": 600,
+        "h": 320
+      }
+    ],
+    "texts": [
+      {
+        "id": "2001:80366",
+        "text": "Recording Contribution",
+        "size": 22,
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        }
+      },
+      {
+        "id": "2001:80367",
+        "text": "Saving the allocation once.",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:80369",
+        "text": "\u00d7",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:80372",
+        "text": "The allocation and its funding link are saved together. If saving fails, nothing changes. Retry with the same request key.",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:80374",
+        "text": "Recording\u2026",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "2001:80375",
+    "name": "Financial Goals / Implementation Notes",
+    "children": [
+      {
+        "id": "2001:80376",
+        "name": "Modal Scrim",
+        "type": "FRAME",
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 1400
+      },
+      {
+        "id": "2001:80377",
+        "name": "Dialog",
+        "type": "FRAME",
+        "x": 320,
+        "y": 310,
+        "w": 800,
+        "h": 780
+      }
+    ],
+    "texts": [
+      {
+        "id": "2001:80378",
+        "text": "Financial Goals \u2014 handoff",
+        "size": 22,
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        }
+      },
+      {
+        "id": "2001:80379",
+        "text": "Desktop only \u00b7 1440px \u00b7 illustrative sample states",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:80381",
+        "text": "\u00d7",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      },
+      {
+        "id": "2001:80384",
+        "text": "Goals earmark funds; they are not wallets or additional assets. Internal allocation reduces unallocated funds, not the wallet balance. External deposits create one linked wallet record and allocation, never duplicate income.",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:80386",
+        "text": "Four targets total \u09f3200,000; saved \u09f372,000; remaining \u09f3128,000; completion 36%. No base goal is near completion, so the summary says 4 goals in progress.",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:80388",
+        "text": "Paused and completed goals are excluded from active totals. Deleting a goal releases allocations, preserves wallet balances and transaction history. Existing contributions are read-only in Edit Goal.",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:80390",
+        "text": "Fixed-sample create, edit, contribution, details, filters and status changes are represented. Code must provide real inputs, persistence, idempotent atomic writes, live wallet availability, history and global privacy state.",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:80392",
+        "text": "Deliverable is desktop only. In React/Tailwind: use a 2-column goal grid, stack at smaller breakpoints, preserve field order, and use max-height scrollable modals with accessible keyboard focus.",
+        "size": 13,
+        "font": {
+          "family": "Manrope",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        }
+      },
+      {
+        "id": "2001:80394",
+        "text": "Close",
+        "size": 14,
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        }
+      }
+    ]
+  }
+]

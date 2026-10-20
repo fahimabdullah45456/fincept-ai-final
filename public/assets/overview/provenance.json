@@ -1,0 +1,120 @@
+{
+  "fileKey": "kpEbLoKLaLiUcB8Q6xxgRl",
+  "assets": [
+    {
+      "name": "search",
+      "node": "2001:5537",
+      "viewBox": "0 0 18 18"
+    },
+    {
+      "name": "ai",
+      "node": "2001:5541",
+      "viewBox": "0 0 18 18"
+    },
+    {
+      "name": "bell",
+      "node": "2001:5546",
+      "viewBox": "0 0 18 18"
+    },
+    {
+      "name": "chevron",
+      "node": "2001:5554",
+      "viewBox": "0 0 16 16"
+    },
+    {
+      "name": "calendar",
+      "node": "2001:5563",
+      "viewBox": "0 0 18 18"
+    },
+    {
+      "name": "plus",
+      "node": "2001:5570",
+      "viewBox": "0 0 18 18"
+    },
+    {
+      "name": "wallet",
+      "node": "2001:5578",
+      "viewBox": "0 0 18 18"
+    },
+    {
+      "name": "income",
+      "node": "2001:5592",
+      "viewBox": "0 0 18 18"
+    },
+    {
+      "name": "expense",
+      "node": "2001:5606",
+      "viewBox": "0 0 18 18"
+    },
+    {
+      "name": "percent",
+      "node": "2001:5620",
+      "viewBox": "0 0 18 18"
+    },
+    {
+      "name": "food",
+      "node": "2001:5795",
+      "viewBox": "0 0 18 18"
+    },
+    {
+      "name": "transport",
+      "node": "2001:5811",
+      "viewBox": "0 0 18 18"
+    },
+    {
+      "name": "shopping",
+      "node": "2001:5828",
+      "viewBox": "0 0 18 18"
+    },
+    {
+      "name": "entertainment",
+      "node": "2001:5844",
+      "viewBox": "0 0 18 18"
+    },
+    {
+      "name": "right",
+      "node": "2001:5915",
+      "viewBox": "0 0 16 16"
+    },
+    {
+      "name": "view",
+      "node": "2001:5976",
+      "viewBox": "0 0 16 16"
+    },
+    {
+      "name": "edit",
+      "node": "2001:5980",
+      "viewBox": "0 0 16 16"
+    },
+    {
+      "name": "trash",
+      "node": "2001:5984",
+      "viewBox": "0 0 16 16"
+    },
+    {
+      "name": "work",
+      "node": "2001:6064",
+      "viewBox": "0 0 18 18"
+    },
+    {
+      "name": "home",
+      "node": "2001:6134",
+      "viewBox": "0 0 18 18"
+    },
+    {
+      "name": "left",
+      "node": "2001:6168",
+      "viewBox": "0 0 16 16"
+    },
+    {
+      "name": "privacy-visible",
+      "node": "65:111",
+      "viewBox": "0 0 18 18"
+    },
+    {
+      "name": "privacy-hidden",
+      "node": "65:121",
+      "viewBox": "0 0 18 18"
+    }
+  ]
+}

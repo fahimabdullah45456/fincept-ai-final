@@ -1,0 +1,45 @@
+{
+  "verified_at": "2026-10-20T05:21:40.100678+00:00",
+  "build": "passed; Vite main-chunk size advisory remains",
+  "unit": {
+    "passed": 92,
+    "files": 14
+  },
+  "backend": {
+    "passed": 138,
+    "skipped": 1,
+    "skip": "Opt-in live AI credentials/provider test"
+  },
+  "planner_backend": {
+    "passed": 33
+  },
+  "browser": {
+    "passed": 99,
+    "planner_scenarios": 9,
+    "viewport_sizes": [
+      [
+        1440,
+        900
+      ],
+      [
+        1366,
+        768
+      ],
+      [
+        1280,
+        800
+      ],
+      [
+        1024,
+        768
+      ]
+    ],
+    "sidebar_states": [
+      "collapsed",
+      "expanded"
+    ]
+  },
+  "production_dependency_vulnerabilities": 0,
+  "no_deployment": true,
+  "reminder_delivery": false
+}

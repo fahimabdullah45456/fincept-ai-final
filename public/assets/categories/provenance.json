@@ -1,0 +1,42 @@
+{
+  "file_key": "kpEbLoKLaLiUcB8Q6xxgRl",
+  "method": "Read-only Figma exportAsync SVG",
+  "assets": [
+    {
+      "name": "receipt",
+      "id": "2001:32355",
+      "w": 22,
+      "h": 22
+    },
+    {
+      "name": "wallet",
+      "id": "2001:32358",
+      "w": 22,
+      "h": 22
+    },
+    {
+      "name": "calendar",
+      "id": "2001:32361",
+      "w": 22,
+      "h": 22
+    },
+    {
+      "name": "plus",
+      "id": "2001:32364",
+      "w": 22,
+      "h": 22
+    },
+    {
+      "name": "clock",
+      "id": "2001:32367",
+      "w": 22,
+      "h": 22
+    },
+    {
+      "name": "check",
+      "id": "2001:32370",
+      "w": 22,
+      "h": 22
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+/* Read-only Figma sources: DateTimeSelector 230:4953, Create custom category 2001:32339.
+   Deliberately scoped: no global/auth/Overview restyling. */
+.fc-date-time{display:grid;grid-template-columns:minmax(0,1fr);gap:18px;min-width:0}
+.fc-date-time.has-time{grid-template-columns:repeat(2,minmax(0,1fr))}
+.fc-date-field{display:flex;flex-direction:column;gap:6px;min-width:0}
+.fc-field-label{font-size:13px;line-height:18px;color:var(--secondary)}
+.fc-date-trigger{display:flex;align-items:center;gap:10px;min-width:0;min-height:44px;width:100%;padding:10px 13px;border:1px solid var(--border);border-radius:12px;background:#fff;color:#20211f;font:inherit;font-size:13px;text-align:left}
+.fc-date-trigger>span:nth-child(2){flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.fc-date-trigger>.overview-icon{color:var(--secondary);flex-shrink:0}
+.fc-date-trigger[aria-invalid=true]{border-color:#ce4339}
+.fc-date-trigger:focus-visible,.fc-calendar button:focus-visible,.fc-category-dialog button:focus-visible{outline:2px solid #f9733b;outline-offset:2px}
+.fc-calendar[popover]{position:fixed;inset:auto;margin:0;padding:12px 16px 14px;box-sizing:border-box;width:min(482px,calc(100vw - 32px));max-height:calc(100dvh - 32px);overflow:auto;border:1px solid #e9e8e3;border-radius:14px;background:white;color:#20211f;font-family:inherit;box-shadow:0 8px 24px #20211f12}
+.fc-calendar:popover-open{animation:fc-calendar-in 150ms ease-out}
+.fc-calendar-header{display:flex;align-items:center;gap:6px;height:34px;margin-bottom:12px}
+.fc-calendar-header>button{background:white;border:1px solid #e9e8e3;border-radius:12px;height:34px;padding:0 13px;font-size:13px;font-weight:700;white-space:nowrap}
+.fc-month-nav{display:flex;align-items:center;gap:2px;flex:1;min-width:0}
+.fc-month-nav strong{font-size:15px;line-height:22px;white-space:nowrap;font-weight:700;margin-right:4px}
+.fc-month-nav button{background:transparent;border:0;border-radius:6px;font-size:20px;width:21px;height:28px;padding:0;color:#777873}
+.fc-calendar-week{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));min-height:34px;gap:0}
+.fc-calendar-week:first-child{min-height:28px;height:28px}
+.fc-calendar-week [role=columnheader]{font-size:12px;font-weight:700;line-height:17px;padding:4px 10px;color:#777873}
+.fc-calendar-week [role=gridcell]{min-width:0;display:flex;align-items:flex-start}
+.fc-calendar-week button{width:48px;max-width:100%;height:30px;border:0;border-radius:8px;background:transparent;color:#20211f;font-size:12px;font-weight:700;padding:0}
+.fc-calendar-week button.selected{background:#fff0e8;color:#c9501a}
+.fc-calendar button:hover{background:#fff0e8}
+.fc-calendar button:disabled{opacity:.35;cursor:not-allowed}
+.fc-calendar-footer{margin-top:24px;border-top:1px solid #e9e8e3;padding-top:11px;display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:48px}
+.fc-calendar .fc-calendar-footer label{font-size:12px;line-height:17px;font-weight:700;color:#777873;display:block}
+.fc-calendar .fc-calendar-footer input{width:122px;max-width:30%;height:36px;min-height:36px;padding:8px 10px;border:1px solid #e9e8e3;border-radius:12px;background:white;text-align:center;font:inherit;font-size:13px;font-weight:700;color:#20211f;letter-spacing:1px}
+.fc-calendar .fc-apply{width:116px;height:36px;border:0;border-radius:12px;background:#f9733b;color:#20211f;font-size:13px;font-weight:700;margin-left:auto}
+.fc-calendar .fc-apply:hover{background:#ec642f}
+.fc-calendar-error{color:#ce4339;font-size:12px;line-height:18px;margin-top:8px}
+.fc-category-dialog.application-dialog{padding:0;width:min(640px,calc(100vw - 48px));height:668px;max-height:calc(100dvh - 48px);border:1px solid #e9e8e3;border-radius:20px;overflow:hidden;box-shadow:0 12px 36px #0000001f}
+.fc-category-dialog .dialog-heading{height:73px;min-height:73px;padding:16px 20px 16px 28px;margin:0;border-bottom:1px solid #e9e8e3;display:flex;align-items:center;justify-content:space-between}
+.fc-category-dialog .dialog-heading h2{font-size:22px;font-weight:800;line-height:32px;letter-spacing:0}
+.fc-category-dialog .dialog-heading button{width:44px;height:40px;background:transparent;color:#777873;font-size:24px}
+.fc-category-dialog>form{display:flex;flex-direction:column;height:calc(100% - 73px);min-height:0}
+.fc-category-body{padding:30px 28px 24px;min-height:0;overflow:auto;flex:1}
+.fc-category-name{display:flex;flex-direction:column;gap:7px;color:#777873;font-size:12px;font-weight:700;line-height:18px}
+.fc-category-name input{height:44px;min-height:44px;border:1px solid #e9e8e3;border-radius:12px;background:white;padding:11px 14px;color:#20211f;font:inherit;font-size:13px;font-weight:500}
+.fc-category-name input[aria-invalid=true]{border-color:#c84c42}
+.fc-category-kind{display:flex;padding:4px;gap:8px;height:44px;border-radius:12px;background:#f7f7f4;margin:20px 0 28px}
+.fc-category-kind button{flex:1;background:transparent;color:#777873;border:0;border-radius:10px;font-size:13px;font-weight:700}
+.fc-category-kind button.selected{background:#fff0e8;color:#c9501a}
+.fc-icon-choices,.fc-color-choices{border:0;margin:0;padding:0;min-width:0}
+.fc-icon-choices legend,.fc-color-choices legend{font-size:12px;font-weight:700;line-height:18px;color:#777873;padding:0;margin-bottom:10px}
+.fc-icon-choices>div,.fc-color-choices>div{display:flex;gap:14px;flex-wrap:wrap}
+.fc-icon-choices button{display:flex;align-items:center;justify-content:center;width:56px;height:48px;border:1px solid #e9e8e3;border-radius:12px;background:#f7f7f4;color:#c9501a}
+.fc-icon-choices button.selected{border-color:#f9733b;background:#fff0e8}
+.fc-color-choices{margin-top:26px}
+.fc-color-choices button{display:flex;align-items:center;justify-content:center;width:48px;height:48px;border:0;border-radius:50%;color:#20211f;margin-right:8px}
+.fc-category-help{margin-top:38px;color:#777873;font-size:13px;line-height:19px}
+.fc-category-help p+p{margin-top:7px;font-size:12px;line-height:17px}
+.fc-category-body>.error-text{font-size:12px;margin-top:12px}
+.fc-category-footer{flex-shrink:0;min-height:80px;border-top:1px solid #e9e8e3;padding:16px 28px;display:flex;align-items:center;gap:12px;background:white}
+.fc-category-footer>span{font-size:12px;color:#777873;margin-right:auto}
+.fc-category-footer .ov-button{height:44px;min-width:112px;padding:0 14px;font-size:13px}
+.fc-category-footer .orange{min-width:130px;background:#f9733b;color:#20211f}
+.fc-category-create-entry{margin:18px 0}
+.fc-custom-category-icon{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:10px;flex-shrink:0}
+@keyframes fc-calendar-in{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}
+@media(prefers-reduced-motion:reduce){.fc-calendar:popover-open{animation:none}}
+/* Nested inside the existing manager dialog: prevent its drawer heading rules leaking in. */
+.fc-category-dialog.application-dialog>.dialog-heading{position:static;top:auto;z-index:auto;padding:16px 20px 16px 28px;min-height:73px;margin:0}
+.fc-calendar-footer{display:grid;grid-template-columns:minmax(0,1fr) 122px minmax(0,1fr);margin-top:22px}
+.fc-calendar .fc-calendar-footer input{max-width:100%;grid-column:2}
+.fc-calendar .fc-apply{grid-column:3;justify-self:end;margin-left:0}

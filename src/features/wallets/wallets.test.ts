@@ -1,0 +1,10 @@
+import {describe,it,expect,beforeEach} from 'vitest';
+import {selectWallets,readView,saveView,type Wallet} from './api';
+import {transactionLink} from './Wallets';
+const wallet=(id:string,kind:Wallet['kind'],n:number,extra:Partial<Wallet>={}):Wallet=>({id,name:id,provider:'Provider',kind,currency:'BDT',archived:0,status:'active',balance_minor:n,opening_minor:n,opening_date:'2026-01-01',identifier_last4:'4821',notes:'',version:1,created_at:'2026-01-01',updated_at:'2026-01-01',position:Number(id)||1,...extra});
+describe('wallet collection and persistent non-financial view',()=>{beforeEach(()=>localStorage.clear());
+ it('defaults safely and persists only the supported view',()=>{expect(readView()).toBe('grid');localStorage.setItem('fincept.wallets.view','invalid');expect(readView()).toBe('grid');saveView('list');expect(readView()).toBe('list');});
+ it('searches name, provider, type and last-four only with AND category filters',()=>{const rows=[wallet('1','bank',100),wallet('2','cash',200)];expect(selectWallets(rows,false,'bank','bank','custom')).toHaveLength(1);expect(selectWallets(rows,false,'provider','cash','custom')[0].id).toBe('2');expect(selectWallets(rows,false,'4821','','custom')).toHaveLength(2);expect(selectWallets(rows,false,'missing','','custom')).toEqual([]);});
+ it('separates archive and uses stable real sorts',()=>{const rows=[wallet('2','cash',100),wallet('1','bank',200),wallet('3','savings',400,{archived:1})];expect(selectWallets(rows,false,'','','custom').map(x=>x.id)).toEqual(['1','2']);expect(selectWallets(rows,false,'','','highest')[0].balance_minor).toBe(200);expect(selectWallets(rows,true,'','','name')[0].id).toBe('3');});
+ it('deep-links the existing transaction route with a selected wallet',()=>{const link=transactionLink(wallet('my id','bank',0),'demo');expect(link).toContain('/transactions?wallet=my+id');expect(link).toContain('dataset=demo');expect(link).not.toContain('2100-12-31');});
+});

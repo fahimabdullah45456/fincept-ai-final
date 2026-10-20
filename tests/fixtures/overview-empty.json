@@ -1,0 +1,105 @@
+{
+  "dataset": "live",
+  "reporting_period": {
+    "start": "2026-10-01",
+    "end": "2026-10-31",
+    "previous_start": "2026-09-01",
+    "previous_end": "2026-09-30",
+    "label": "October 2026",
+    "days_left": 14
+  },
+  "summary": {
+    "income": 0.0,
+    "expenses": 0.0,
+    "net": 0.0,
+    "savings_rate": null,
+    "available_balance": 0.0,
+    "wallet_count": 0,
+    "balance_change": 0.0,
+    "previous": {
+      "income": 0.0,
+      "expenses": 0.0,
+      "net": 0.0,
+      "savings_rate": null
+    },
+    "income_change": null,
+    "expense_change": null,
+    "savings_change": null
+  },
+  "categories": [],
+  "cash_flow": {
+    "grouping": "monthly",
+    "history_start": "2026-05-01",
+    "history_end": "2026-10-31",
+    "buckets": [
+      {
+        "label": "May",
+        "full_label": "May 2026",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "selected": false,
+        "income": 0.0,
+        "expenses": 0.0,
+        "net": 0.0,
+        "savings_rate": null
+      },
+      {
+        "label": "Jun",
+        "full_label": "June 2026",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "selected": false,
+        "income": 0.0,
+        "expenses": 0.0,
+        "net": 0.0,
+        "savings_rate": null
+      },
+      {
+        "label": "Jul",
+        "full_label": "July 2026",
+        "start": "2026-07-01",
+        "end": "2026-07-31",
+        "selected": false,
+        "income": 0.0,
+        "expenses": 0.0,
+        "net": 0.0,
+        "savings_rate": null
+      },
+      {
+        "label": "Aug",
+        "full_label": "August 2026",
+        "start": "2026-08-01",
+        "end": "2026-08-31",
+        "selected": false,
+        "income": 0.0,
+        "expenses": 0.0,
+        "net": 0.0,
+        "savings_rate": null
+      },
+      {
+        "label": "Sep",
+        "full_label": "September 2026",
+        "start": "2026-09-01",
+        "end": "2026-09-30",
+        "selected": false,
+        "income": 0.0,
+        "expenses": 0.0,
+        "net": 0.0,
+        "savings_rate": null
+      },
+      {
+        "label": "Oct",
+        "full_label": "October 2026",
+        "start": "2026-10-01",
+        "end": "2026-10-31",
+        "selected": true,
+        "income": 0.0,
+        "expenses": 0.0,
+        "net": 0.0,
+        "savings_rate": null
+      }
+    ]
+  },
+  "budgets": [],
+  "goals": []
+}

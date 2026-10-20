@@ -1,0 +1,31 @@
+
+> fincept-ai@0.1.0 test:e2e
+> playwright test tests/settings.spec.ts
+
+[WebServer] INFO:     Started server process [40026]
+[WebServer] INFO:     Waiting for application startup.
+[WebServer] INFO:     Application startup complete.
+[WebServer] INFO:     Uvicorn running on http://127.0.0.1:8090 (Press CTRL+C to quit)
+
+Running 17 tests using 1 worker
+
+
+  ✓   1 tests/settings.spec.ts:22:1 › profile validates, cancels, saves real user data, and updates shared header without reload (3.1s)
+  ✓   2 tests/settings.spec.ts:30:1 › category routes support back/forward and saved notification preferences (3.1s)
+  ✓   3 tests/settings.spec.ts:36:1 › formatting propagates across shared amounts and preserves underlying records (2.4s)
+  ✓   4 tests/settings.spec.ts:41:1 › Settings and header privacy share one persisted state across all application routes (6.9s)
+  ✓   5 tests/settings.spec.ts:49:1 › password flow reauthenticates, blocks dismissal while pending, and genuinely revokes other sessions (3.3s)
+  ✓   6 tests/settings.spec.ts:58:1 › native dialog Escape, focus restoration, keyboard switches, and accessible FAQ (1.9s)
+  ✓   7 tests/settings.spec.ts:63:1 › real JSON/CSV downloads, empty scopes, and confirmed demo clearing preserve live data (2.5s)
+  ✓   8 tests/settings.spec.ts:72:1 › failed preferences retain draft and never display success, then retry correctly (1.4s)
+  ✓   9 tests/settings.spec.ts:75:1 › initial load errors retry and integrations never claim a connection (1.4s)
+  ✓  10 tests/settings.spec.ts:78:85 › all categories and dialogs fit 1440x900 (3.7s)
+  ✓  11 tests/settings.spec.ts:78:85 › all categories and dialogs fit 1366x768 (3.6s)
+  ✓  12 tests/settings.spec.ts:78:85 › all categories and dialogs fit 1280x800 (3.8s)
+  ✓  13 tests/settings.spec.ts:78:85 › all categories and dialogs fit 1024x768 (3.0s)
+  ✓  14 tests/settings.spec.ts:78:85 › all categories and dialogs fit 390x844 (2.1s)
+  ✓  15 tests/settings.spec.ts:84:1 › profile errors retain inputs and never claim a successful update (984ms)
+  ✓  16 tests/settings.spec.ts:87:1 › version conflicts reload explicitly and pending saves cannot double-submit (2.3s)
+  ✓  17 tests/settings.spec.ts:90:1 › expired Settings authorization provides a sign-in action instead of saved controls (840ms)
+
+  17 passed (49.9s)

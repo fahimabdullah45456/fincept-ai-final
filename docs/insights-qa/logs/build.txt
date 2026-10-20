@@ -1,0 +1,18 @@
+
+> fincept-ai@0.1.0 build
+> tsc -b && vite build
+
+vite v6.4.4 building for production...
+transforming...
+✓ 1644 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                              0.42 kB │ gzip:   0.30 kB
+dist/assets/manrope-vietnamese-wght-normal-usUDDRr7.woff2    8.52 kB
+dist/assets/manrope-greek-wght-normal-DL7QRZyv.woff2         9.44 kB
+dist/assets/manrope-cyrillic-wght-normal-Dvxsihut.woff2     14.50 kB
+dist/assets/manrope-latin-ext-wght-normal-Ch3YOpNY.woff2    15.12 kB
+dist/assets/manrope-latin-wght-normal-DHIcAJRg.woff2        24.84 kB
+dist/assets/index-C1mXAbJD.css                             118.87 kB │ gzip:  24.34 kB
+dist/assets/index-DwHRez-h.js                              476.73 kB │ gzip: 139.28 kB
+✓ built in 2.98s

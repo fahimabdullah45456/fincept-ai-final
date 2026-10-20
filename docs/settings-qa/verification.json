@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-20",
+  "implementation": "direct changes to supplied repository; no Codex tool available",
+  "figma_verified": false,
+  "schema_version": 11,
+  "build": "passed",
+  "frontend_unit": {
+    "passed": 110,
+    "files": 16
+  },
+  "backend": {
+    "passed": 179,
+    "skipped": 1
+  },
+  "settings_backend": {
+    "passed": 13
+  },
+  "full_browser_before_final_settings_only_refinements": {
+    "passed": 125
+  },
+  "final_settings_browser": {
+    "passed": 17
+  },
+  "viewports": [
+    [
+      1440,
+      900
+    ],
+    [
+      1366,
+      768
+    ],
+    [
+      1280,
+      800
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "screenshots": 40,
+  "npm_audit_all": {
+    "moderate": 1,
+    "critical": 2
+  },
+  "npm_audit_production": {
+    "total": 0
+  },
+  "lint": "not configured",
+  "unavailable": [
+    "notification delivery",
+    "Google/bank connections",
+    "verified email changes",
+    "avatar upload",
+    "restore",
+    "account deletion",
+    "approved legal documents",
+    "support destination"
+  ],
+  "changed_existing_files": [
+    "CLAUDE.md",
+    "README.md",
+    "START_HERE.md",
+    "backend/app/main.py",
+    "backend/tests/test_budgets.py",
+    "backend/tests/test_goals.py",
+    "backend/tests/test_planner.py",
+    "backend/tests/test_transactions.py",
+    "docs/ARCHITECTURE.md",
+    "docs/ASSETS.md",
+    "docs/DESIGN_SYSTEM.md",
+    "docs/IMPLEMENTATION_STATUS.md",
+    "src/app/App.tsx",
+    "src/components/layout/ApplicationHeader.tsx",
+    "src/components/layout/ApplicationPreferences.tsx",
+    "src/components/layout/AuthenticatedLayout.tsx",
+    "src/components/ui/Dialog.tsx",
+    "src/features/auth/AuthProvider.tsx",
+    "src/features/insights/InsightsCharts.tsx",
+    "src/features/overview/OverviewCards.tsx",
+    "src/features/transactions/TransactionForm.tsx",
+    "src/features/wallets/WalletForms.tsx"
+  ]
+}

@@ -1,0 +1,14 @@
+Final targeted correction verification
+
+npm run build: PASS (TypeScript + Vite).
+npm test: 49 passed, 7 files.
+Backend .venv/bin/python -m pytest -q: 31 passed, 1 existing Starlette/httpx deprecation warning.
+PYTHON_BIN=/data/fincept-ai/backend/.venv/bin/python PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH=$(which chromium) npm run test:e2e: 46 passed (1.7m).
+126 unique tests total. Earlier targeted runs are not added to this count.
+
+Real backend persistence verified for selected date/time and category icon/color/type. Calendar Apply commits, Escape cancels draft without closing the parent dialog. Date filtering, duplicate category errors, rename appearance preservation, metadata validation/cascade/fallback covered.
+Calendar and category-create bounds and live controls: 1440x900, 1366x768, 1280x800, 1024x768. No document horizontal overflow. Existing full suite additionally checks both sidebar states.
+Original DateTimeSelector and Create custom category screenshots compared against the actual DOM renders at 1440; 1024 calendar context also visually reviewed. Screenshots are QA evidence only.
+All six original category SVGs validated as pure vector geometry with no scripts/images/external hrefs.
+
+Original Figma files were not modified. No deployment/user-computer installation is claimed. No unrelated runtime feature source was changed. Full changed-file list is in CALENDAR_CATEGORY_FILES.md.

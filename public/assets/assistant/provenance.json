@@ -1,0 +1,22 @@
+[
+  {
+    "path": "public/assets/assistant/sparkle.svg",
+    "fileKey": "kpEbLoKLaLiUcB8Q6xxgRl",
+    "sourceNode": "2001:86385",
+    "originalName": "AI Sparkle",
+    "format": "svg",
+    "viewBox": "0 0 36 36",
+    "usage": "Welcome indicator",
+    "validation": "No raster image, script, event handler or external dependency"
+  },
+  {
+    "path": "public/assets/assistant/suggestion.svg",
+    "fileKey": "kpEbLoKLaLiUcB8Q6xxgRl",
+    "sourceNode": "2001:86385",
+    "originalName": "AI Sparkle",
+    "format": "svg",
+    "viewBox": "0 0 18 18",
+    "usage": "Header, suggestion and message badge",
+    "validation": "No raster image, script, event handler or external dependency"
+  }
+]

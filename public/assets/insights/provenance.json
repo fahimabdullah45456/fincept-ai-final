@@ -1,0 +1,71 @@
+{
+  "source": "Figma Insights page 2001:7028",
+  "assets": [
+    {
+      "file": "up.svg",
+      "file_key": "kpEbLoKLaLiUcB8Q6xxgRl",
+      "node_id": "2001:81293",
+      "format": "svg",
+      "width": 18,
+      "height": 18,
+      "viewBox": "0 0 18 18",
+      "sha256": "b4e29e9d503896ff5b6414b61648c6bc2313ec12cbb065ccd59034a7d42da038",
+      "usage": "Insights icon; original path geometry with shared currentColor CSS mask"
+    },
+    {
+      "file": "budget.svg",
+      "file_key": "kpEbLoKLaLiUcB8Q6xxgRl",
+      "node_id": "2001:81301",
+      "format": "svg",
+      "width": 18,
+      "height": 18,
+      "viewBox": "0 0 18 18",
+      "sha256": "259dd8bdbe394af5baffdaf67a5a4e5118bbc573aa240061b4c49b91419f9c56",
+      "usage": "Insights icon; original path geometry with shared currentColor CSS mask"
+    },
+    {
+      "file": "wallet.svg",
+      "file_key": "kpEbLoKLaLiUcB8Q6xxgRl",
+      "node_id": "2001:81309",
+      "format": "svg",
+      "width": 18,
+      "height": 18,
+      "viewBox": "0 0 18 18",
+      "sha256": "0424159595b5e3c0d79e99d5e657e25200f25f384960e0dae24a518b4bea958f",
+      "usage": "Insights icon; original path geometry with shared currentColor CSS mask"
+    },
+    {
+      "file": "home.svg",
+      "file_key": "kpEbLoKLaLiUcB8Q6xxgRl",
+      "node_id": "2001:81419",
+      "format": "svg",
+      "width": 18,
+      "height": 18,
+      "viewBox": "0 0 18 18",
+      "sha256": "bf1f7e05005a9f5e347f6270f05863d7071808b35309e7c0504fcd94218bf791",
+      "usage": "Insights icon; original path geometry with shared currentColor CSS mask"
+    },
+    {
+      "file": "bag.svg",
+      "file_key": "kpEbLoKLaLiUcB8Q6xxgRl",
+      "node_id": "2001:81427",
+      "format": "svg",
+      "width": 18,
+      "height": 18,
+      "viewBox": "0 0 18 18",
+      "sha256": "f95471dba8b76cdd8da8b0e687caaa757ee25b50db6bc8b3886a9069c75c62d6",
+      "usage": "Insights icon; original path geometry with shared currentColor CSS mask"
+    },
+    {
+      "file": "ai-sparkle.svg",
+      "file_key": "kpEbLoKLaLiUcB8Q6xxgRl",
+      "node_id": "2001:81518",
+      "format": "svg",
+      "width": 18,
+      "height": 18,
+      "viewBox": "0 0 18 18",
+      "sha256": "f9cfd0a5b4f1bcbdce747d4736df2d4553c80172aeded570ebe122dee632bde5",
+      "usage": "Insights icon; original path geometry with shared currentColor CSS mask"
+    }
+  ]
+}

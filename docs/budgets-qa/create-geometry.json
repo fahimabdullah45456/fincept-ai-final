@@ -1,0 +1,74 @@
+[
+  {
+    "class": "dialog-heading",
+    "text": "Create Budget×",
+    "y": 26.5,
+    "height": 59
+  },
+  {
+    "class": "bg-subtitle",
+    "text": "Set a spending limit for what matters to you.",
+    "y": 88.5,
+    "height": 40
+  },
+  {
+    "class": "wl-field",
+    "text": "Budget name",
+    "y": 151.5,
+    "height": 76
+  },
+  {
+    "class": "wl-field",
+    "text": "CategorySelect category",
+    "y": 245.5,
+    "height": 76
+  },
+  {
+    "class": "bg-form-grid",
+    "text": "Monthly limit৳BDT · Bangladeshi TakaStart dateOct ",
+    "y": 339.5,
+    "height": 188
+  },
+  {
+    "class": "wl-field",
+    "text": "Monthly limit৳BDT · Bangladeshi Taka",
+    "y": 339.5,
+    "height": 102
+  },
+  {
+    "class": "wl-field",
+    "text": "Reset periodMonthly",
+    "y": 451.5,
+    "height": 76
+  },
+  {
+    "class": "wl-field",
+    "text": "Alert threshold (optional)75%",
+    "y": 451.5,
+    "height": 76
+  },
+  {
+    "class": "wl-field",
+    "text": "Notes (optional)",
+    "y": 545.5,
+    "height": 104
+  },
+  {
+    "class": "bg-help",
+    "text": "Alert options: 50%, 75%, 90%, 100%. Near Limit sta",
+    "y": 667.5,
+    "height": 18
+  },
+  {
+    "class": "bg-info",
+    "text": "Only categorized expenses count toward a budget. T",
+    "y": 715.5,
+    "height": 66
+  },
+  {
+    "class": "bg-form-footer",
+    "text": "CancelSave Budget",
+    "y": 797.5,
+    "height": 76
+  }
+]

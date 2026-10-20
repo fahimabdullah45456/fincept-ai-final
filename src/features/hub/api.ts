@@ -1,0 +1,8 @@
+import type {Wallet} from '../wallets/api';
+export type ShoppingItem={id:string;name:string;quantity:number;unit_minor:number;category:string;purchased:number;actual_minor:number|null;purchased_date:string|null;notes:string;version:number};
+export type ShoppingList={id:string;name:string;category:string;target_date:string|null;notes:string;version:number;items:ShoppingItem[];estimated_minor:number;remaining_minor:number;purchased_count:number;actual_minor:number|null;unknown_actual_count:number;comparable_estimate_minor:number;complete:boolean};
+export type HubData={lists:ShoppingList[];wallets:Wallet[];total_minor:number;today:string;summary:{active_lists:number;estimated_minor:number;purchased_items:number;remaining_items:number};activities:{id:string;title:string;kind:string;date:string;amount_minor:number|null;url:string}[]};
+export const currencies=['BDT','USD','EUR','GBP','INR','JPY','CAD','AUD','SAR','AED'] as const;
+export type Rates={base:string;rates:Record<string,number>;as_of:string;fetched_at:string;source:string;source_url:string;status:'live'|'cached'|'stale';warning?:string};
+export function conversion(amount:string,from:string,to:string,data?:Rates){if(!/^\d+(\.\d{1,6})?$/.test(amount))return null;const n=Number(amount);if(!Number.isFinite(n)||n<0||n>1e12)return null;if(from===to)return n;if(!data||data.base!==from||!Number.isFinite(data.rates[to]))return null;const result=n*data.rates[to];return Number.isFinite(result)?result:null;}
+export function currencyAmount(value:number,code:string){return new Intl.NumberFormat('en-US',{style:'currency',currency:code,minimumFractionDigits:code==='JPY'?0:2,maximumFractionDigits:code==='JPY'?0:2}).format(value);}

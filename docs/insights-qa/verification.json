@@ -1,0 +1,214 @@
+{
+  "verified_at": "2026-10-20T03:30:09+00:00",
+  "status": "passed",
+  "checks": {
+    "production_build": "passed",
+    "frontend_unit": {
+      "passed": 73,
+      "files": 12
+    },
+    "backend": {
+      "passed": 88,
+      "warnings": 2,
+      "insights_cases": 13
+    },
+    "full_browser": {
+      "passed": 79,
+      "duration": "5.4m"
+    },
+    "final_targeted_browser": {
+      "passed": 17,
+      "duration": "1.0m",
+      "note": "Repeats Insights + sidebar cases after final negative cash-flow, keyboard menu and backend export/import refinements; not additional distinct cases."
+    },
+    "distinct_tests": 240
+  },
+  "desktop_viewports": [
+    [
+      1440,
+      900
+    ],
+    [
+      1366,
+      768
+    ],
+    [
+      1280,
+      800
+    ],
+    [
+      1024,
+      768
+    ]
+  ],
+  "sidebar_states": [
+    "76px minimized",
+    "252px expanded"
+  ],
+  "horizontal_overflow": "none in tested desktop states; primary/secondary sections and dialogs contained",
+  "visual_qa": "Original Figma desktop and implemented wide/narrow desktop captures reviewed; pixel identity is not claimed. Real records intentionally replace independent illustrative Figma values.",
+  "assets": {
+    "original_svg_count": 6,
+    "validation": "XML parsed; no raster images, scripts, foreignObject, event handlers or href dependencies; hashes in public/assets/insights/provenance.json"
+  },
+  "dependency_audit": {
+    "production_vulnerabilities": 0,
+    "existing_dev_only_advisories": {
+      "critical": 2,
+      "moderate": 1
+    },
+    "scope": "Vitest/tinypool/mocker chain; suggested repair is a major Vitest upgrade, not silently applied."
+  },
+  "runtime_boundaries": [
+    "No AI provider or simulated AI findings",
+    "Manual BDT records; no bank sync or production deployment",
+    "Goals are current active-allocation snapshots, not period savings",
+    "Budgets intersect report dates, use full unprorated saved limits, exclude ambiguous matches",
+    "Privacy masks presentation; authorized API data remains readable",
+    "Masked CSV hides monetary columns, not percentages/counts/dates",
+    "Category details show first 50 oldest matching expenses, with Transactions link for the rest"
+  ],
+  "screenshots": [
+    {
+      "file": "figma-category-dialog.png",
+      "width": 680,
+      "height": 620
+    },
+    {
+      "file": "figma-custom-applied.png",
+      "width": 1001,
+      "height": 1400
+    },
+    {
+      "file": "figma-custom-range.png",
+      "width": 600,
+      "height": 420
+    },
+    {
+      "file": "figma-desktop-content.png",
+      "width": 733,
+      "height": 1024
+    },
+    {
+      "file": "figma-export-dialog.png",
+      "width": 600,
+      "height": 480
+    },
+    {
+      "file": "figma-failed.png",
+      "width": 1001,
+      "height": 1400
+    },
+    {
+      "file": "figma-last3-charts.png",
+      "width": 900,
+      "height": 283
+    },
+    {
+      "file": "figma-last3-summary.png",
+      "width": 900,
+      "height": 112
+    },
+    {
+      "file": "figma-loading.png",
+      "width": 1001,
+      "height": 1400
+    },
+    {
+      "file": "figma-no-spending-charts.png",
+      "width": 900,
+      "height": 283
+    },
+    {
+      "file": "figma-no-transactions.png",
+      "width": 1001,
+      "height": 1400
+    },
+    {
+      "file": "figma-privacy.png",
+      "width": 1001,
+      "height": 1400
+    },
+    {
+      "file": "figma-this-year.png",
+      "width": 1001,
+      "height": 1400
+    },
+    {
+      "file": "figma-tooltip.png",
+      "width": 1001,
+      "height": 1400
+    },
+    {
+      "file": "implemented-1024x768-expanded.png",
+      "width": 1024,
+      "height": 3871
+    },
+    {
+      "file": "implemented-1280x800-expanded.png",
+      "width": 1280,
+      "height": 2540
+    },
+    {
+      "file": "implemented-1366x768-expanded.png",
+      "width": 1366,
+      "height": 2540
+    },
+    {
+      "file": "implemented-1440x900-expanded.png",
+      "width": 1440,
+      "height": 2521
+    },
+    {
+      "file": "implemented-category.png",
+      "width": 1440,
+      "height": 2114
+    },
+    {
+      "file": "implemented-custom-empty.png",
+      "width": 1440,
+      "height": 2087
+    },
+    {
+      "file": "implemented-desktop.png",
+      "width": 1440,
+      "height": 2114
+    },
+    {
+      "file": "implemented-empty.png",
+      "width": 1440,
+      "height": 2056
+    },
+    {
+      "file": "implemented-export.png",
+      "width": 1440,
+      "height": 2114
+    },
+    {
+      "file": "implemented-failed.png",
+      "width": 1440,
+      "height": 980
+    },
+    {
+      "file": "implemented-loading.png",
+      "width": 1440,
+      "height": 980
+    },
+    {
+      "file": "implemented-negative-cashflow.png",
+      "width": 1440,
+      "height": 1990
+    },
+    {
+      "file": "implemented-privacy-category.png",
+      "width": 1440,
+      "height": 2112
+    },
+    {
+      "file": "implemented-tooltip.png",
+      "width": 1440,
+      "height": 2114
+    }
+  ],
+  "logs": "logs/"
+}

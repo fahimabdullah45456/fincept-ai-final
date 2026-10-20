@@ -1,0 +1,10 @@
+export type Kind='income'|'expense'|'transfer';
+export type Dataset='live'|'demo';
+export type Entry={id:string;kind:Kind;amount_minor:number;fee_minor:number;wallet_id:string;destination_wallet_id:string|null;wallet_name:string;destination_wallet_name:string|null;title:string;description:string;notes:string;category:string;occurred_at:string;linked_transfer_id:string|null;mode:'transfer'|'withdraw';version:number;created_at:string;updated_at:string};
+export type Wallet={id:string;name:string;kind:string;balance_minor:number;opening_date:string;archived:number;status?:string;currency:string};
+export type Category={id:string;name:string;kind:'income'|'expense';default:boolean;icon?:string;color?:string};
+export type Options={wallets:Wallet[];categories:Category[]};
+export type Filters={start:string;end:string;search:string;kind:''|Kind;category:string;wallet:string;minimum:string;maximum:string;sort:'newest'|'oldest'|'highest'|'lowest'};
+export type Listing={items:Entry[];total:number;page:number;pages:number;limit:number;counts:Partial<Record<Kind,number>>;summary:{income_minor:number;expenses_minor:number;net_minor:number;count:number;previous_income_minor:number;previous_expenses_minor:number;income_change:number|null;expense_change:number|null;net_change_minor:number};period:{start:string;end:string}};
+export function localDate(d=new Date()){return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;}
+export function initialFilters():Filters {const today=new Date();return {start:localDate(new Date(today.getFullYear(),today.getMonth(),1)),end:localDate(new Date(today.getFullYear(),today.getMonth()+1,0)),search:'',kind:'',category:'',wallet:'',minimum:'',maximum:'',sort:'newest'};}

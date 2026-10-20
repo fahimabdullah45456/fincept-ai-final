@@ -1,0 +1,6 @@
+# Design preflight
+Inspected read-only Figma file kpEbLoKLaLiUcB8Q6xxgRl, pages 2001:7031 / 2001:7032: main frames 2001:100573 / 2001:111868; Borrowed/Lent/EMI, details, creation/payment forms, reviews, validation, archives, loading/error/privacy, shopping CRUD/purchase states and converter states. Bounded node inventories are retained in `debt-hub-qa/design-inventory.json`. Masters 167:22286–22412 and 176:27222–27360 inspected; no published variant property definitions returned.
+
+Map: shared AuthenticatedLayout/header; Debt summaries → metric cards; loan/EMI masters → ObligationCard; next commitment → NextPayment; history → semantic table; forms → existing Field/AmountInput/Dialog/useCommand. Hub wallet masters → canonical wallet summaries; shopping card/item table → ShoppingCard/ListDetails; converter → CurrencyConverter; shortcut/activity → routed links. Plain CSS, Manrope, existing tokens, white surfaces, 16px radius, orange #F9733B. No screenshot is used at runtime. Desktop scope remains unchanged.
+
+Original icons: 167:22297 obligation; 176:27251 shopping bag. Reference screenshots saved in docs/debt-hub-qa. Figma integration guidance resource was unavailable; supported read-only node inspection and asset exports were used instead.

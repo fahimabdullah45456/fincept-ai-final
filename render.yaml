@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: fincept-ai-final
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: COOKIE_SECURE
+        value: "true"
+      - key: DATABASE_PATH
+        value: /var/data/fincept.sqlite3
+      - key: FRONTEND_ORIGINS
+        value: https://fincept-ai-final.onrender.com
+      - key: AI_PROVIDER
+        sync: false
+      - key: AI_MODEL
+        sync: false
+      - key: APMIX_API_KEY
+        sync: false
+    disk:
+      name: fincept-data
+      mountPath: /var/data
+      sizeGB: 1

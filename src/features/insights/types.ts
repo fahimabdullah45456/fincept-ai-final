@@ -1,0 +1,23 @@
+export type InsightsPeriod = 'this_month' | 'last_month' | 'last_3_months' | 'this_year' | 'custom';
+export type Dataset = 'live' | 'demo';
+export type RangeQuery = { period: InsightsPeriod; start?: string; end?: string; dataset: Dataset };
+export type Bucket = { label: string; full_label: string; start: string; end: string; income_minor: number; expenses_minor: number; net_minor: number; record_count: number; selected: boolean };
+export type Share = { name: string; amount_minor: number; percentage: number | null; count: number };
+export type Comparison = { label: string; start: string; end: string; income_minor: number; expenses_minor: number; income_change: number | null; expense_change: number | null };
+export type BudgetStatus = 'On Track' | 'Near Limit' | 'Exceeded';
+export type InsightBudget = { id: string; name: string; category: string; spent_minor: number; limit_minor: number; remaining_minor: number; percentage: number | null; status: BudgetStatus; start_date: string; end_date: string; conflicted: boolean };
+export type InsightsData = {
+  dataset: Dataset;
+  period: InsightsPeriod;
+  range: { start: string; end: string; label: string; single_month: boolean; days: number };
+  summary: { income_minor: number; expenses_minor: number; net_minor: number; savings_rate: number | null; comparison: Comparison | null };
+  cash_flow: { mode: 'context' | 'monthly' | 'quarterly'; scope: string; buckets: Bucket[]; has_history: boolean };
+  categories: { total_minor: number; items: Share[] };
+  income_sources: { total_minor: number; items: Share[] };
+  trends: { largest_category: Share | null; shopping_minor: number; net_minor: number };
+  savings: { as_of: string; saved_minor: number; target_minor: number; remaining_minor: number; percentage: number | null; active_count: number };
+  budgets: { count: number; items: InsightBudget[]; ambiguous_count: number };
+  ai: { available: boolean; reason: string; findings: unknown[] };
+  record_count: number;
+  transfer_count: number;
+};

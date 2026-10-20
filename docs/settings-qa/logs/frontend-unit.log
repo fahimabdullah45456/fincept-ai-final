@@ -1,0 +1,32 @@
+
+> fincept-ai@0.1.0 test
+> vitest run
+
+
+ RUN  v3.2.7 /data/fincept-ai
+
+ ✓ src/components/layout/AuthenticatedLayout.test.tsx (4 tests) 885ms
+   ✓ shares the same sidebar instance across every route and updates active selection  526ms
+ ✓ src/features/planner/dates.test.ts (10 tests) 1269ms
+   ✓ Planner civil date arithmetic > covers every month 1901–2100 without gaps or duplicate dates  1246ms
+ ✓ src/features/settings/settings.test.tsx (7 tests) 874ms
+ ✓ src/features/transactions/DateTimePicker.test.tsx (5 tests) 870ms
+   ✓ Figma calendar > renders Monday-first days and applies only after confirmation  329ms
+ ✓ src/features/assistant/assistant.test.tsx (9 tests) 166ms
+ ✓ src/features/insights/InsightsCharts.test.tsx (3 tests) 179ms
+ ✓ src/features/overview/OverviewCards.test.tsx (5 tests) 211ms
+ ✓ src/features/auth/components/FormControls.test.tsx (3 tests) 281ms
+ ✓ src/features/auth/components/AuthBrand.test.tsx (2 tests) 167ms
+ ✓ src/features/budgets/budgets.test.ts (3 tests) 17ms
+ ✓ src/features/insights/format.test.ts (11 tests) 27ms
+ ✓ src/features/hub/hub.test.ts (11 tests) 79ms
+ ✓ src/features/transactions/calculator.test.ts (22 tests) 20ms
+ ✓ src/features/wallets/wallets.test.ts (4 tests) 9ms
+ ✓ src/features/auth/validation.test.ts (8 tests) 6ms
+ ✓ src/features/goals/goals.test.ts (3 tests) 3ms
+
+ Test Files  16 passed (16)
+      Tests  110 passed (110)
+   Start at  10:17:00
+   Duration  20.95s (transform 693ms, setup 2.03s, collect 1.79s, tests 5.06s, environment 7.30s, prepare 1.62s)
+

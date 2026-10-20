@@ -1,0 +1,3 @@
+Figma page 2001:7027 inspected before coding. Desktop75706 /Create79265 /Details79595 /Add79900 /Review80182 /filter80279,80295 /Sort80313 /Categories80329 /funding80351 /handoff80375.
+Reuse shared AuthenticatedLayout/Sidebar/Header/Preferences/Money/Dialog/Field/AmountInput/useCommand/DateTimePicker. Goal-specific 2-column cards; 4 summaries; journey; goal toolbar; create720/add680/review640/details760 dialogs. Existing ChoiceDialog behavior matches Figma filter-dialog pattern, reuse rather than duplicate.
+Read-only variables match global tokens brand/bg; local Manrope verified. Original nine isolated SVG exports, no screenshot runtime assets. Goal categories/categories separate from expense category taxonomy, as existing goals had no category model.

@@ -1,0 +1,112 @@
+[
+  {
+    "file": "public/assets/budgets/plus.svg",
+    "node_id": "2001:71761",
+    "original_name": "Icon/plus",
+    "viewBox": "0 0 18 18",
+    "width": 18,
+    "height": 18,
+    "sha256": "784bcbb615b023ae84f1c0fdba92b86f09ccdc223f4da5cd6dbfd6a4a55dec41",
+    "validated": true
+  },
+  {
+    "file": "public/assets/budgets/budget.svg",
+    "node_id": "2001:71768",
+    "original_name": "Icon/budget",
+    "viewBox": "0 0 18 18",
+    "width": 18,
+    "height": 18,
+    "sha256": "2cf363294839ae27e40d56ca24e691159528387abd696744d162b0d8eb5d5ddc",
+    "validated": true
+  },
+  {
+    "file": "public/assets/budgets/up.svg",
+    "node_id": "2001:71776",
+    "original_name": "Icon/up",
+    "viewBox": "0 0 18 18",
+    "width": 18,
+    "height": 18,
+    "sha256": "2930c84b1c6bf0f8b23a94bda559fab91d74ceade01c49efb5db56e2a78bf8cd",
+    "validated": true
+  },
+  {
+    "file": "public/assets/budgets/wallet.svg",
+    "node_id": "2001:71784",
+    "original_name": "Icon/wallet",
+    "viewBox": "0 0 18 18",
+    "width": 18,
+    "height": 18,
+    "sha256": "8f906407ce037f03a757576506aadf50aeca10c387d4c1edff8529921a81c956",
+    "validated": true
+  },
+  {
+    "file": "public/assets/budgets/search.svg",
+    "node_id": "2001:71812",
+    "original_name": "Icon/search",
+    "viewBox": "0 0 18 18",
+    "width": 18,
+    "height": 18,
+    "sha256": "1725ab07d2208617b779a4f9b0592ffa180a7a88d268ce958fa483c71cd8dbd0",
+    "validated": true
+  },
+  {
+    "file": "public/assets/budgets/food.svg",
+    "node_id": "2001:71825",
+    "original_name": "Icon/food",
+    "viewBox": "0 0 20 20",
+    "width": 20,
+    "height": 20,
+    "sha256": "ae59f287c218526cbb04c00ef1e1a44033d22e29c4bbc9efd58706afa3fe17f7",
+    "validated": true
+  },
+  {
+    "file": "public/assets/budgets/bag.svg",
+    "node_id": "2001:71845",
+    "original_name": "Icon/bag",
+    "viewBox": "0 0 20 20",
+    "width": 20,
+    "height": 20,
+    "sha256": "e6b2091bb24b0d37928b4469dbe6bc27830ece8f71e3a1972a57edb8beca6e77",
+    "validated": true
+  },
+  {
+    "file": "public/assets/budgets/car.svg",
+    "node_id": "2001:71865",
+    "original_name": "Icon/car",
+    "viewBox": "0 0 20 20",
+    "width": 20,
+    "height": 20,
+    "sha256": "337d1ecd8b630cb0767275316d5437a89f45e7f83dbaa2fdac874524b29701a6",
+    "validated": true
+  },
+  {
+    "file": "public/assets/budgets/home.svg",
+    "node_id": "2001:71886",
+    "original_name": "Icon/home",
+    "viewBox": "0 0 20 20",
+    "width": 20,
+    "height": 20,
+    "sha256": "3d7126596dbe2ca6c779655d72ce94f16dd5d02c77b3e4260b6341ea7b4f9e56",
+    "validated": true
+  },
+  {
+    "file": "public/assets/budgets/film.svg",
+    "node_id": "2001:71904",
+    "original_name": "Icon/film",
+    "viewBox": "0 0 20 20",
+    "width": 20,
+    "height": 20,
+    "sha256": "39ef30ed643521d5de1bf77016b915c122dbeca6172dd00f53672d37eedf025c",
+    "validated": true
+  },
+  {
+    "file": "public/assets/budgets/health.svg",
+    "node_id": "2001:71923",
+    "original_name": "Icon/plus",
+    "viewBox": "0 0 20 20",
+    "width": 20,
+    "height": 20,
+    "sha256": "65a64cead6e183b2457472770ab34da27d108b14a33d0cf32ebea445c58ed925",
+    "validated": true
+  }
+]
